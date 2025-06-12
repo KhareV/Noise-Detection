@@ -1,0 +1,23 @@
+{
+  "image_name": "detector_test_images\\speckle\\speckle_test_039.png",
+  "prediction": "salt_pepper",
+  "confidence": 0.95,
+  "stage1_decision": "salt_pepper",
+  "stage1_confidence": 0.95,
+  "stage1_info": {
+    "exact_extreme_ratio": 0.247802734375,
+    "isolation_ratio": 0.9679881802511696
+  },
+  "ensemble_probabilities": {},
+  "processing_time": 0.0,
+  "feature_time": 0.0,
+  "image_shape": [
+    128,
+    128
+  ],
+  "mean_intensity": 113.4136962890625,
+  "std_intensity": 90.6917372691473,
+  "timestamp": "2025-06-12T06:40:36Z",
+  "system_version": "final_v1.0",
+  "user": "vkhare2909"
+}

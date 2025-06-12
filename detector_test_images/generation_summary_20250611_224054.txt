@@ -1,0 +1,65 @@
+NOISE IMAGE GENERATOR REPORT
+==================================================
+Generated: 2025-06-11 22:40:54
+User: vkhare2909
+Target System: FIXED Noise Detection System
+
+DATASET SUMMARY:
+--------------------
+Images per noise type: 40
+Total noisy images: 200
+Clean reference images: 20
+Mixed test cases: 20
+Total images: 240
+
+NOISE TYPES AND CONFIGURATIONS:
+-----------------------------------
+
+GAUSSIAN:
+  Config 1: {'std': 5, 'mean': 0}
+  Config 2: {'std': 12, 'mean': 0}
+  Config 3: {'std': 20, 'mean': 0}
+  Config 4: {'std': 30, 'mean': 0}
+  Config 5: {'std': 8, 'mean': 2}
+  Config 6: {'std': 15, 'mean': -1}
+  Config 7: {'std': 25, 'mean': 3}
+
+SALT_PEPPER:
+  Config 1: {'density': 0.01, 'salt_ratio': 0.5}
+  Config 2: {'density': 0.03, 'salt_ratio': 0.5}
+  Config 3: {'density': 0.07, 'salt_ratio': 0.5}
+  Config 4: {'density': 0.12, 'salt_ratio': 0.5}
+  Config 5: {'density': 0.02, 'salt_ratio': 0.6}
+  Config 6: {'density': 0.05, 'salt_ratio': 0.4}
+  Config 7: {'density': 0.08, 'salt_ratio': 0.7}
+
+SPECKLE:
+  Config 1: {'var': 0.08}
+  Config 2: {'var': 0.2}
+  Config 3: {'var': 0.35}
+  Config 4: {'var': 0.5}
+  Config 5: {'var': 0.15}
+  Config 6: {'var': 0.25}
+  Config 7: {'var': 0.4}
+
+DETECTOR_STRIPING:
+  Config 1: {'amp': 15, 'period': 6, 'direction': 'vertical'}
+  Config 2: {'amp': 30, 'period': 10, 'direction': 'horizontal'}
+  Config 3: {'amp': 45, 'period': 14, 'direction': 'vertical'}
+  Config 4: {'amp': 60, 'period': 20, 'direction': 'horizontal'}
+  Config 5: {'amp': 25, 'period': 8, 'direction': 'vertical'}
+  Config 6: {'amp': 40, 'period': 12, 'direction': 'horizontal'}
+  Config 7: {'amp': 50, 'period': 16, 'direction': 'vertical'}
+
+DETECTOR_BANDING:
+  Config 1: {'intensity': 10, 'num_bands': 4, 'direction': 'vertical'}
+  Config 2: {'intensity': 20, 'num_bands': 6, 'direction': 'horizontal'}
+  Config 3: {'intensity': 15, 'num_bands': 8, 'direction': 'vertical'}
+  Config 4: {'intensity': 25, 'num_bands': 5, 'direction': 'horizontal'}
+  Config 5: {'intensity': 12, 'num_bands': 7, 'direction': 'vertical'}
+  Config 6: {'intensity': 18, 'num_bands': 9, 'direction': 'horizontal'}
+  Config 7: {'intensity': 22, 'num_bands': 6, 'direction': 'vertical'}
+
+DIRECTORY STRUCTURE:
+--------------------
+detector_test_images/

@@ -1,0 +1,49 @@
+{
+  "image_name": "detector_test_images\\gaussian\\gaussian_test_010.png",
+  "prediction": "gaussian",
+  "confidence": 0.7691407035271127,
+  "stage1_decision": null,
+  "stage1_confidence": 0.0,
+  "stage1_info": {
+    "exact_extreme_ratio": 0.06707763671875,
+    "sample_std": 75.62096558453548,
+    "decision": "full_analysis_required"
+  },
+  "ensemble_probabilities": {
+    "rf": [
+      0.8110333333333332,
+      0.07293333333333334,
+      0.06869999999999998,
+      0.04733333333333333
+    ],
+    "extra": [
+      0.58875,
+      0.22625,
+      0.105,
+      0.08
+    ],
+    "gb": [
+      0.9999352267842103,
+      1.2775687989284167e-05,
+      5.153424125785887e-05,
+      4.6328654242658233e-07
+    ],
+    "svm_linear": [
+      0.5867023016439354,
+      0.0008271685965499354,
+      0.40738556863894965,
+      0.005084961120564739
+    ]
+  },
+  "processing_time": 0.660602,
+  "feature_time": 0.242516,
+  "image_shape": [
+    128,
+    128
+  ],
+  "mean_intensity": 125.42864990234375,
+  "std_intensity": 75.0166024070847,
+  "timestamp": "2025-06-12T06:40:36Z",
+  "system_version": "final_v1.0",
+  "user": "vkhare2909"
+}

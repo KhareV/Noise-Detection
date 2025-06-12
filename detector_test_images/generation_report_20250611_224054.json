@@ -1,0 +1,187 @@
+{
+  "generation_info": {
+    "timestamp": "2025-06-11T22:40:54.875851",
+    "user": "vkhare2909",
+    "system": "NoiseImageGeneratorForDetector",
+    "detector_target": "FIXED Noise Detection System",
+    "version": "1.0"
+  },
+  "dataset_structure": {
+    "images_per_noise_type": 40,
+    "total_noisy_images": 200,
+    "clean_reference_images": 20,
+    "mixed_test_cases": 20,
+    "total_images": 240
+  },
+  "noise_configurations": {
+    "gaussian": [
+      {
+        "std": 5,
+        "mean": 0
+      },
+      {
+        "std": 12,
+        "mean": 0
+      },
+      {
+        "std": 20,
+        "mean": 0
+      },
+      {
+        "std": 30,
+        "mean": 0
+      },
+      {
+        "std": 8,
+        "mean": 2
+      },
+      {
+        "std": 15,
+        "mean": -1
+      },
+      {
+        "std": 25,
+        "mean": 3
+      }
+    ],
+    "salt_pepper": [
+      {
+        "density": 0.01,
+        "salt_ratio": 0.5
+      },
+      {
+        "density": 0.03,
+        "salt_ratio": 0.5
+      },
+      {
+        "density": 0.07,
+        "salt_ratio": 0.5
+      },
+      {
+        "density": 0.12,
+        "salt_ratio": 0.5
+      },
+      {
+        "density": 0.02,
+        "salt_ratio": 0.6
+      },
+      {
+        "density": 0.05,
+        "salt_ratio": 0.4
+      },
+      {
+        "density": 0.08,
+        "salt_ratio": 0.7
+      }
+    ],
+    "speckle": [
+      {
+        "var": 0.08
+      },
+      {
+        "var": 0.2
+      },
+      {
+        "var": 0.35
+      },
+      {
+        "var": 0.5
+      },
+      {
+        "var": 0.15
+      },
+      {
+        "var": 0.25
+      },
+      {
+        "var": 0.4
+      }
+    ],
+    "detector_striping": [
+      {
+        "amp": 15,
+        "period": 6,
+        "direction": "vertical"
+      },
+      {
+        "amp": 30,
+        "period": 10,
+        "direction": "horizontal"
+      },
+      {
+        "amp": 45,
+        "period": 14,
+        "direction": "vertical"
+      },
+      {
+        "amp": 60,
+        "period": 20,
+        "direction": "horizontal"
+      },
+      {
+        "amp": 25,
+        "period": 8,
+        "direction": "vertical"
+      },
+      {
+        "amp": 40,
+        "period": 12,
+        "direction": "horizontal"
+      },
+      {
+        "amp": 50,
+        "period": 16,
+        "direction": "vertical"
+      }
+    ],
+    "detector_banding": [
+      {
+        "intensity": 10,
+        "num_bands": 4,
+        "direction": "vertical"
+      },
+      {
+        "intensity": 20,
+        "num_bands": 6,
+        "direction": "horizontal"
+      },
+      {
+        "intensity": 15,
+        "num_bands": 8,
+        "direction": "vertical"
+      },
+      {
+        "intensity": 25,
+        "num_bands": 5,
+        "direction": "horizontal"
+      },
+      {
+        "intensity": 12,
+        "num_bands": 7,
+        "direction": "vertical"
+      },
+      {
+        "intensity": 18,
+        "num_bands": 9,
+        "direction": "horizontal"
+      },
+      {
+        "intensity": 22,
+        "num_bands": 6,
+        "direction": "vertical"
+      }
+    ]
+  },
+  "directory_structure": {
+    "base": "detector_test_images",
+    "subdirectories": [
+      "gaussian",
+      "salt_pepper",
+      "speckle",
+      "detector_striping",
+      "detector_banding",
+      "clean_images",
+      "mixed_test"
+    ]
+  }
+}

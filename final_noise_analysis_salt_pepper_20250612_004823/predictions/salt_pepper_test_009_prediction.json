@@ -1,0 +1,49 @@
+{
+  "image_name": "detector_test_images\\salt_pepper\\salt_pepper_test_009.png",
+  "prediction": "salt_pepper",
+  "confidence": 0.8556132738615725,
+  "stage1_decision": null,
+  "stage1_confidence": 0.0,
+  "stage1_info": {
+    "exact_extreme_ratio": 0.02996826171875,
+    "sample_std": 44.86006567023169,
+    "decision": "full_analysis_required"
+  },
+  "ensemble_probabilities": {
+    "rf": [
+      0.13,
+      0.8178333333333334,
+      0.0225,
+      0.029666666666666664
+    ],
+    "extra": [
+      0.13,
+      0.73125,
+      0.0575,
+      0.08125
+    ],
+    "gb": [
+      8.301787533251314e-08,
+      0.9999998487974242,
+      6.751438543026375e-08,
+      6.703151040035403e-10
+    ],
+    "svm_linear": [
+      3.872030606210153e-09,
+      0.9999664499554981,
+      2.8952735031662577e-05,
+      4.593437439557729e-06
+    ]
+  },
+  "processing_time": 0.526925,
+  "feature_time": 0.136918,
+  "image_shape": [
+    128,
+    128
+  ],
+  "mean_intensity": 127.501220703125,
+  "std_intensity": 44.467225064705765,
+  "timestamp": "2025-06-12T06:40:36Z",
+  "system_version": "final_v1.0",
+  "user": "vkhare2909"
+}

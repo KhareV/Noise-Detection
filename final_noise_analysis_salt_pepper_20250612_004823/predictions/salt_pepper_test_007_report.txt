@@ -1,0 +1,17 @@
+FINAL NOISE DETECTION REPORT
+============================
+Image: salt_pepper_test_007.png
+Date: 2025-06-12 06:40:36 UTC
+User: vkhare2909
+System: Final v1.0 - Speckle Optimized
+
+RESULT: SALT_PEPPER
+Confidence: 77.7%
+Stage 1 Decision: None
+Stage 1 Confidence: 0.0%
+Processing Time: 0.513s
+
+Stage 1 Analysis:
+  exact_extreme_ratio: 0.08721923828125
+  sample_std: 79.42697793571149
+  decision: full_analysis_required

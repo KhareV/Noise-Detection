@@ -1,0 +1,49 @@
+{
+  "image_name": "detector_test_images\\speckle\\speckle_test_016.png",
+  "prediction": "speckle",
+  "confidence": 0.9692212119067614,
+  "stage1_decision": "speckle",
+  "stage1_confidence": 0.88,
+  "stage1_info": {
+    "intensity_var_correlation": 0.9822186080344013,
+    "mean_cv": 0.4632769326765546,
+    "num_patches": 36
+  },
+  "ensemble_probabilities": {
+    "rf": [
+      0.0265,
+      0.03133333333333334,
+      0.941,
+      0.0011666666666666665
+    ],
+    "extra": [
+      0.015,
+      0.01875,
+      0.96625,
+      0.0
+    ],
+    "gb": [
+      1.4482725021044643e-05,
+      1.3100208273415401e-09,
+      0.99998551489912,
+      1.0658382229580171e-09
+    ],
+    "svm_linear": [
+      6.350484820574222e-07,
+      7.246446713817611e-07,
+      0.9999983318198142,
+      3.084870323335477e-07
+    ]
+  },
+  "processing_time": 0.737626,
+  "feature_time": 0.298008,
+  "image_shape": [
+    128,
+    128
+  ],
+  "mean_intensity": 132.4970703125,
+  "std_intensity": 72.9409333101731,
+  "timestamp": "2025-06-12T06:40:36Z",
+  "system_version": "final_v1.0",
+  "user": "vkhare2909"
+}

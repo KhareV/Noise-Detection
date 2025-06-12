@@ -1,0 +1,17 @@
+FINAL NOISE DETECTION REPORT
+============================
+Image: gaussian_test_034.png
+Date: 2025-06-12 06:40:36 UTC
+User: vkhare2909
+System: Final v1.0 - Speckle Optimized
+
+RESULT: GAUSSIAN
+Confidence: 88.9%
+Stage 1 Decision: None
+Stage 1 Confidence: 0.0%
+Processing Time: 0.542s
+
+Stage 1 Analysis:
+  exact_extreme_ratio: 0.00726318359375
+  sample_std: 53.51936703428022
+  decision: full_analysis_required

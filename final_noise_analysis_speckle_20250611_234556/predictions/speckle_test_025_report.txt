@@ -1,0 +1,17 @@
+FINAL NOISE DETECTION REPORT
+============================
+Image: speckle_test_025.png
+Date: 2025-06-12 06:40:36 UTC
+User: vkhare2909
+System: Final v1.0 - Speckle Optimized
+
+RESULT: SPECKLE
+Confidence: 87.0%
+Stage 1 Decision: None
+Stage 1 Confidence: 0.0%
+Processing Time: 0.417s
+
+Stage 1 Analysis:
+  exact_extreme_ratio: 0.0885009765625
+  sample_std: 60.76613036881648
+  decision: full_analysis_required

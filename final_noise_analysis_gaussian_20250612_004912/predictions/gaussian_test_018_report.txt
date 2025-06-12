@@ -1,0 +1,16 @@
+FINAL NOISE DETECTION REPORT
+============================
+Image: gaussian_test_018.png
+Date: 2025-06-12 06:40:36 UTC
+User: vkhare2909
+System: Final v1.0 - Speckle Optimized
+
+RESULT: SALT_PEPPER
+Confidence: 95.0%
+Stage 1 Decision: salt_pepper
+Stage 1 Confidence: 95.0%
+Processing Time: 0.000s
+
+Stage 1 Analysis:
+  exact_extreme_ratio: 0.18133544921875
+  isolation_ratio: 0.9942799461641992

@@ -1,0 +1,17 @@
+FINAL NOISE DETECTION REPORT
+============================
+Image: speckle_test_037.png
+Date: 2025-06-12 06:40:36 UTC
+User: vkhare2909
+System: Final v1.0 - Speckle Optimized
+
+RESULT: SPECKLE
+Confidence: 84.9%
+Stage 1 Decision: gaussian
+Stage 1 Confidence: 90.0%
+Processing Time: 0.400s
+
+Stage 1 Analysis:
+  ks_p_value: 0.39509903300888305
+  sample_std: 55.99214317149773
+  sample_mean: 126.09825
