@@ -1,0 +1,92 @@
+{
+  "image_name": "detector_test_images\\detector_striping\\detector_striping_test_031.png",
+  "prediction": "striping",
+  "confidence": 0.7255701909987753,
+  "stage1_decision": "salt_pepper",
+  "stage1_confidence": 0.88,
+  "stage1_info": {
+    "exact_extreme_ratio": 0.214599609375,
+    "isolation_ratio": 0.40602786465737845,
+    "balance_ratio": 0.616551724137931,
+    "black_ratio": 0.08184814453125,
+    "white_ratio": 0.13275146484375,
+    "method": "balanced_isolation_test"
+  },
+  "ensemble_probabilities": {
+    "rf": [
+      0.1011111111111111,
+      0.25177777777777777,
+      0.043888888888888894,
+      0.6032222222222222
+    ],
+    "extra": [
+      0.098,
+      0.268,
+      0.078,
+      0.556
+    ],
+    "gb": [
+      5.41231074702575e-09,
+      5.261538175708747e-09,
+      5.488112853469741e-09,
+      0.9999999838380382
+    ],
+    "svm_linear": [
+      0.0004710023591387844,
+      0.02306161894801619,
+      4.3206077964629835e-05,
+      0.9764241726148801
+    ]
+  },
+  "detailed_analysis": {
+    "log_variance": 2.4367786145886083,
+    "intensity_variance_correlation": -0.01860680600136956,
+    "extreme_pixel_ratio": 0.214599609375,
+    "edge_density": 0.161865234375,
+    "ensemble_probabilities": {
+      "rf": [
+        0.1011111111111111,
+        0.25177777777777777,
+        0.043888888888888894,
+        0.6032222222222222
+      ],
+      "extra": [
+        0.098,
+        0.268,
+        0.078,
+        0.556
+      ],
+      "gb": [
+        5.41231074702575e-09,
+        5.261538175708747e-09,
+        5.488112853469741e-09,
+        0.9999999838380382
+      ],
+      "svm_linear": [
+        0.0004710023591387844,
+        0.02306161894801619,
+        4.3206077964629835e-05,
+        0.9764241726148801
+      ]
+    },
+    "stage1_info": {
+      "exact_extreme_ratio": 0.214599609375,
+      "isolation_ratio": 0.40602786465737845,
+      "balance_ratio": 0.616551724137931,
+      "black_ratio": 0.08184814453125,
+      "white_ratio": 0.13275146484375,
+      "method": "balanced_isolation_test"
+    }
+  },
+  "processing_time": 0.474721,
+  "feature_time": 0.317523,
+  "image_shape": [
+    128,
+    128
+  ],
+  "mean_intensity": 114.07452392578125,
+  "std_intensity": 93.04726595422125,
+  "timestamp": "2025-06-13T02:02:17Z",
+  "system_version": "optimized_ultra_final_v2.0_fast",
+  "user": "vkhare2909"
+}

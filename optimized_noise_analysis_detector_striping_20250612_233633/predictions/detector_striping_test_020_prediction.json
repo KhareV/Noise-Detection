@@ -1,0 +1,88 @@
+{
+  "image_name": "detector_test_images\\detector_striping\\detector_striping_test_020.png",
+  "prediction": "striping",
+  "confidence": 0.9821996290287901,
+  "stage1_decision": null,
+  "stage1_confidence": 0.0,
+  "stage1_info": {
+    "exact_extreme_ratio": 0.0,
+    "sample_std": 28.01824779603464,
+    "log_variance": 0.24043927259054498,
+    "decision": "full_analysis_required"
+  },
+  "ensemble_probabilities": {
+    "rf": [
+      0.005,
+      0.015,
+      0.0,
+      0.98
+    ],
+    "extra": [
+      0.008,
+      0.02,
+      0.008,
+      0.964
+    ],
+    "gb": [
+      5.224427601489726e-07,
+      6.69191800887159e-09,
+      9.547501307695492e-07,
+      0.9999985161151911
+    ],
+    "svm_linear": [
+      2.1908458261177988e-14,
+      3.992207935208964e-14,
+      1.4174631293936061e-14,
+      0.999999999999924
+    ]
+  },
+  "detailed_analysis": {
+    "log_variance": 0.24043927259054498,
+    "intensity_variance_correlation": -0.6985134140716943,
+    "extreme_pixel_ratio": 0.0,
+    "edge_density": 0.1640625,
+    "ensemble_probabilities": {
+      "rf": [
+        0.005,
+        0.015,
+        0.0,
+        0.98
+      ],
+      "extra": [
+        0.008,
+        0.02,
+        0.008,
+        0.964
+      ],
+      "gb": [
+        5.224427601489726e-07,
+        6.69191800887159e-09,
+        9.547501307695492e-07,
+        0.9999985161151911
+      ],
+      "svm_linear": [
+        2.1908458261177988e-14,
+        3.992207935208964e-14,
+        1.4174631293936061e-14,
+        0.999999999999924
+      ]
+    },
+    "stage1_info": {
+      "exact_extreme_ratio": 0.0,
+      "sample_std": 28.01824779603464,
+      "log_variance": 0.24043927259054498,
+      "decision": "full_analysis_required"
+    }
+  },
+  "processing_time": 0.358055,
+  "feature_time": 0.211221,
+  "image_shape": [
+    128,
+    128
+  ],
+  "mean_intensity": 64.625,
+  "std_intensity": 28.06660604704459,
+  "timestamp": "2025-06-13T02:02:17Z",
+  "system_version": "optimized_ultra_final_v2.0_fast",
+  "user": "vkhare2909"
+}

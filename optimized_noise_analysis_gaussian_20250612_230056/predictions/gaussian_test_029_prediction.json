@@ -1,0 +1,88 @@
+{
+  "image_name": "detector_test_images\\gaussian\\gaussian_test_029.png",
+  "prediction": "gaussian",
+  "confidence": 0.956779331495293,
+  "stage1_decision": null,
+  "stage1_confidence": 0.0,
+  "stage1_info": {
+    "exact_extreme_ratio": 0.0,
+    "sample_std": 20.36819316385231,
+    "log_variance": 0.03869707704209869,
+    "decision": "full_analysis_required"
+  },
+  "ensemble_probabilities": {
+    "rf": [
+      0.921,
+      0.004,
+      0.0016666666666666668,
+      0.07333333333333333
+    ],
+    "extra": [
+      0.95,
+      0.0,
+      0.0,
+      0.05
+    ],
+    "gb": [
+      0.9999999780676125,
+      7.145910253171724e-09,
+      7.11752607444595e-09,
+      7.668951350342462e-09
+    ],
+    "svm_linear": [
+      0.9942933697838994,
+      0.0003111643526872202,
+      0.0009496859410508161,
+      0.004445779922362468
+    ]
+  },
+  "detailed_analysis": {
+    "log_variance": 0.03869707704209869,
+    "intensity_variance_correlation": -0.06597041791986367,
+    "extreme_pixel_ratio": 0.0,
+    "edge_density": 0.35626220703125,
+    "ensemble_probabilities": {
+      "rf": [
+        0.921,
+        0.004,
+        0.0016666666666666668,
+        0.07333333333333333
+      ],
+      "extra": [
+        0.95,
+        0.0,
+        0.0,
+        0.05
+      ],
+      "gb": [
+        0.9999999780676125,
+        7.145910253171724e-09,
+        7.11752607444595e-09,
+        7.668951350342462e-09
+      ],
+      "svm_linear": [
+        0.9942933697838994,
+        0.0003111643526872202,
+        0.0009496859410508161,
+        0.004445779922362468
+      ]
+    },
+    "stage1_info": {
+      "exact_extreme_ratio": 0.0,
+      "sample_std": 20.36819316385231,
+      "log_variance": 0.03869707704209869,
+      "decision": "full_analysis_required"
+    }
+  },
+  "processing_time": 0.366724,
+  "feature_time": 0.219507,
+  "image_shape": [
+    128,
+    128
+  ],
+  "mean_intensity": 109.03717041015625,
+  "std_intensity": 20.60559628695752,
+  "timestamp": "2025-06-13T02:02:17Z",
+  "system_version": "optimized_ultra_final_v2.0_fast",
+  "user": "vkhare2909"
+}

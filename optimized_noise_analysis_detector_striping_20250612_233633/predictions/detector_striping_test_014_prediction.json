@@ -1,0 +1,88 @@
+{
+  "image_name": "detector_test_images\\detector_striping\\detector_striping_test_014.png",
+  "prediction": "striping",
+  "confidence": 0.9903868732165978,
+  "stage1_decision": null,
+  "stage1_confidence": 0.0,
+  "stage1_info": {
+    "exact_extreme_ratio": 0.032958984375,
+    "sample_std": 59.72116203959867,
+    "log_variance": 0.787388239020869,
+    "decision": "full_analysis_required"
+  },
+  "ensemble_probabilities": {
+    "rf": [
+      0.0,
+      0.006666666666666667,
+      0.0,
+      0.9933333333333333
+    ],
+    "extra": [
+      0.022,
+      0.0,
+      0.0,
+      0.978
+    ],
+    "gb": [
+      5.388206645413157e-09,
+      5.249397402872555e-09,
+      5.249595320679976e-09,
+      0.9999999841128007
+    ],
+    "svm_linear": [
+      2.1674476874993022e-05,
+      0.006637596438176138,
+      0.00013862386763958885,
+      0.9932021052173093
+    ]
+  },
+  "detailed_analysis": {
+    "log_variance": 0.787388239020869,
+    "intensity_variance_correlation": 0.17664396294475587,
+    "extreme_pixel_ratio": 0.032958984375,
+    "edge_density": 0.125,
+    "ensemble_probabilities": {
+      "rf": [
+        0.0,
+        0.006666666666666667,
+        0.0,
+        0.9933333333333333
+      ],
+      "extra": [
+        0.022,
+        0.0,
+        0.0,
+        0.978
+      ],
+      "gb": [
+        5.388206645413157e-09,
+        5.249397402872555e-09,
+        5.249595320679976e-09,
+        0.9999999841128007
+      ],
+      "svm_linear": [
+        2.1674476874993022e-05,
+        0.006637596438176138,
+        0.00013862386763958885,
+        0.9932021052173093
+      ]
+    },
+    "stage1_info": {
+      "exact_extreme_ratio": 0.032958984375,
+      "sample_std": 59.72116203959867,
+      "log_variance": 0.787388239020869,
+      "decision": "full_analysis_required"
+    }
+  },
+  "processing_time": 0.382511,
+  "feature_time": 0.246988,
+  "image_shape": [
+    128,
+    128
+  ],
+  "mean_intensity": 125.607177734375,
+  "std_intensity": 60.228522837012754,
+  "timestamp": "2025-06-13T02:02:17Z",
+  "system_version": "optimized_ultra_final_v2.0_fast",
+  "user": "vkhare2909"
+}

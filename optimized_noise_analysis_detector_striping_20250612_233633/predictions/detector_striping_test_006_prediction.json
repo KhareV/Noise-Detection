@@ -1,0 +1,88 @@
+{
+  "image_name": "detector_test_images\\detector_striping\\detector_striping_test_006.png",
+  "prediction": "striping",
+  "confidence": 0.9887166624751482,
+  "stage1_decision": null,
+  "stage1_confidence": 0.0,
+  "stage1_info": {
+    "exact_extreme_ratio": 0.0,
+    "sample_std": 48.16325148118636,
+    "log_variance": 0.2257071495847341,
+    "decision": "full_analysis_required"
+  },
+  "ensemble_probabilities": {
+    "rf": [
+      0.0033333333333333335,
+      0.008333333333333333,
+      0.0,
+      0.9883333333333333
+    ],
+    "extra": [
+      0.008,
+      0.016,
+      0.0,
+      0.976
+    ],
+    "gb": [
+      5.689549124493972e-09,
+      5.261152448898337e-09,
+      5.472918397697893e-09,
+      0.99999998357638
+    ],
+    "svm_linear": [
+      4.80052812032307e-10,
+      1.7289549731768574e-10,
+      2.0318608188874757e-10,
+      0.9999999991438656
+    ]
+  },
+  "detailed_analysis": {
+    "log_variance": 0.2257071495847341,
+    "intensity_variance_correlation": -0.02841458684673359,
+    "extreme_pixel_ratio": 0.0,
+    "edge_density": 0.17657470703125,
+    "ensemble_probabilities": {
+      "rf": [
+        0.0033333333333333335,
+        0.008333333333333333,
+        0.0,
+        0.9883333333333333
+      ],
+      "extra": [
+        0.008,
+        0.016,
+        0.0,
+        0.976
+      ],
+      "gb": [
+        5.689549124493972e-09,
+        5.261152448898337e-09,
+        5.472918397697893e-09,
+        0.99999998357638
+      ],
+      "svm_linear": [
+        4.80052812032307e-10,
+        1.7289549731768574e-10,
+        2.0318608188874757e-10,
+        0.9999999991438656
+      ]
+    },
+    "stage1_info": {
+      "exact_extreme_ratio": 0.0,
+      "sample_std": 48.16325148118636,
+      "log_variance": 0.2257071495847341,
+      "decision": "full_analysis_required"
+    }
+  },
+  "processing_time": 0.454648,
+  "feature_time": 0.297765,
+  "image_shape": [
+    128,
+    128
+  ],
+  "mean_intensity": 128.1312255859375,
+  "std_intensity": 48.20417079053853,
+  "timestamp": "2025-06-13T02:02:17Z",
+  "system_version": "optimized_ultra_final_v2.0_fast",
+  "user": "vkhare2909"
+}

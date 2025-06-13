@@ -1,0 +1,58 @@
+OPTIMIZED ULTRA-FINAL NOISE DETECTION REPORT (Fast Training)
+==========================================================
+Image: detector_striping_test_031.png
+Date: 2025-06-13 02:02:17 UTC
+User: vkhare2909
+System: Optimized Ultra-Final v2.0 (Fast Training Edition)
+Enhancement: Enhanced Stage 1 + Improved Accuracy + Fast Training
+
+FINAL RESULT: STRIPING
+   Confidence: 72.6%
+   Processing Time: 0.475s
+
+ENHANCED STAGE 1 ANALYSIS:
+   Decision: SALT_PEPPER
+   Confidence: 88.0%
+   Method: balanced_isolation_test
+   exact_extreme_ratio: 0.2146
+   isolation_ratio: 0.4060
+   balance_ratio: 0.6166
+   black_ratio: 0.0818
+   white_ratio: 0.1328
+
+CRITICAL FIXES APPLIED:
+   • Salt & pepper threshold: 0.18 → 0.20 (more conservative)
+   • Isolation ratio threshold: 0.30 → 0.40 (stricter)
+   • Added balance ratio check for salt & pepper (>0.25)
+   • Stage 1 confidence threshold: 0.92 → 0.88 (better accuracy)
+   • Fast training mode: 60% reduction in training time
+
+ENHANCED DETAILED ANALYSIS:
+   log_variance: 2.4368
+   intensity_variance_correlation: -0.0186
+   extreme_pixel_ratio: 0.2146
+   edge_density: 0.1619
+
+ENSEMBLE PROBABILITIES:
+   gaussian: 0.050
+   salt_pepper: 0.136
+   speckle: 0.030
+   striping: 0.784
+
+NOISE TYPE CHARACTERISTICS:
+   Periodic pattern noise with systematic horizontal/vertical bands
+
+IMAGE STATISTICS:
+   Shape: 128 × 128
+   Mean Intensity: 114.07
+   Std Intensity: 93.05
+   Feature Extraction Time: 0.318s
+
+OPTIMIZED SYSTEM INFORMATION:
+   Version: optimized_ultra_final_v2.0_fast
+   Features: 107 optimized with enhanced discrimination
+   Classifiers: RF (35%), Extra Trees (30%), GB (25%), Linear SVM (10%)
+   Training: Fast optimized training (~2160 images, 2-3 min)
+   Stage 1 Threshold: 0.88 (optimized from 0.92)
+   Enhanced Features: Balanced salt & pepper detection, improved speckle analysis
+   Performance: 60% faster training, maintained accuracy

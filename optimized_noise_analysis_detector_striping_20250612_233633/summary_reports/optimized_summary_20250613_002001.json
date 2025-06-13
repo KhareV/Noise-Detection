@@ -1,0 +1,3587 @@
+{
+  "folder_info": {
+    "name": "detector_striping",
+    "timestamp": "2025-06-13T02:06:01Z",
+    "user": "vkhare2909",
+    "total_images": 40,
+    "system_version": "optimized_ultra_final_v2.0_fast",
+    "optimization_level": "enhanced_stage1_improved_accuracy_fast_training"
+  },
+  "noise_distribution": {
+    "gaussian": 0,
+    "salt_pepper": 1,
+    "speckle": 0,
+    "striping": 39
+  },
+  "optimization_analysis": {
+    "stage1_decisions": 1,
+    "full_analysis_required": 39,
+    "stage1_efficiency": 2.5,
+    "enhanced_speckle_detections": 0,
+    "balanced_salt_pepper_detections": 1,
+    "critical_fixes_applied": {
+      "salt_pepper_threshold_increase": "0.18 → 0.20",
+      "isolation_ratio_increase": "0.30 → 0.40",
+      "balance_ratio_check_added": ">0.25",
+      "stage1_confidence_lowered": "0.92 → 0.88",
+      "training_time_reduction": "60%"
+    }
+  },
+  "enhanced_confidence_stats": {
+    "mean": 0.7887673002873343,
+    "std": 0.2056862435787082,
+    "min": 0.3643541639904779,
+    "max": 0.997599993547873,
+    "median": 0.8105829185164457,
+    "q25": 0.6425300421109303,
+    "q75": 0.984321909130965,
+    "very_high_confidence_count": 19,
+    "high_confidence_count": 20,
+    "medium_confidence_count": 3,
+    "low_confidence_count": 17
+  },
+  "enhanced_performance_stats": {
+    "mean_time": 0.4803690749999999,
+    "median_time": 0.387783,
+    "total_time": 19.214762999999998,
+    "min_time": 0.345959,
+    "max_time": 1.245802,
+    "std_time": 0.22001208636929329,
+    "stage1_avg_time": 0.474721,
+    "full_analysis_avg_time": 0.4805138974358974
+  },
+  "quality_metrics": {
+    "images_processed": 40,
+    "avg_image_quality": 61.45939954101632,
+    "feature_extraction_efficiency": 0.32487865,
+    "system_reliability": "MEDIUM",
+    "training_efficiency": "FAST (60% reduction)",
+    "expected_accuracy_improvement": "Speckle: 77.5% → 85-90%, Overall: 85.8% → 90-93%"
+  },
+  "individual_results": [
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_001.png",
+      "prediction": "striping",
+      "confidence": 0.668622698798374,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.07122802734375,
+        "sample_std": 93.55616586500325,
+        "log_variance": 0.7040970800968609,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.13172222222222224,
+          0.27744444444444444,
+          0.0753888888888889,
+          0.5154444444444445
+        ],
+        "extra": [
+          0.142,
+          0.318,
+          0.076,
+          0.464
+        ],
+        "gb": [
+          5.41228842182631e-09,
+          5.2615164724299395e-09,
+          5.462536207980854e-09,
+          0.9999999838636588
+        ],
+        "svm_linear": [
+          0.0015446597092673988,
+          0.000830741208397749,
+          0.007453126313297603,
+          0.9901714727690373
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.7040970800968609,
+        "intensity_variance_correlation": 0.2559571907945547,
+        "extreme_pixel_ratio": 0.07122802734375,
+        "edge_density": 0.173828125,
+        "ensemble_probabilities": {
+          "rf": [
+            0.13172222222222224,
+            0.27744444444444444,
+            0.0753888888888889,
+            0.5154444444444445
+          ],
+          "extra": [
+            0.142,
+            0.318,
+            0.076,
+            0.464
+          ],
+          "gb": [
+            5.41228842182631e-09,
+            5.2615164724299395e-09,
+            5.462536207980854e-09,
+            0.9999999838636588
+          ],
+          "svm_linear": [
+            0.0015446597092673988,
+            0.000830741208397749,
+            0.007453126313297603,
+            0.9901714727690373
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.07122802734375,
+          "sample_std": 93.55616586500325,
+          "log_variance": 0.7040970800968609,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.377057,
+      "feature_time": 0.229863,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 116.13433837890625,
+      "std_intensity": 93.25930283887459,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_002.png",
+      "prediction": "striping",
+      "confidence": 0.6101971358094594,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.5926513671875,
+        "sample_std": 108.30617812091793,
+        "log_variance": 5.5158267362284645,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.04066666666666667,
+          0.25483333333333336,
+          0.13394444444444445,
+          0.5705555555555555
+        ],
+        "extra": [
+          0.058,
+          0.264,
+          0.206,
+          0.472
+        ],
+        "gb": [
+          5.412531005247178e-09,
+          5.191323245746383e-09,
+          1.0434920800394975e-06,
+          0.9999989459040657
+        ],
+        "svm_linear": [
+          0.06586966068220118,
+          0.5538685827173351,
+          0.19123220771047764,
+          0.18902954888998602
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 5.5158267362284645,
+        "intensity_variance_correlation": -0.04772178897482419,
+        "extreme_pixel_ratio": 0.5926513671875,
+        "edge_density": 0.13671875,
+        "ensemble_probabilities": {
+          "rf": [
+            0.04066666666666667,
+            0.25483333333333336,
+            0.13394444444444445,
+            0.5705555555555555
+          ],
+          "extra": [
+            0.058,
+            0.264,
+            0.206,
+            0.472
+          ],
+          "gb": [
+            5.412531005247178e-09,
+            5.191323245746383e-09,
+            1.0434920800394975e-06,
+            0.9999989459040657
+          ],
+          "svm_linear": [
+            0.06586966068220118,
+            0.5538685827173351,
+            0.19123220771047764,
+            0.18902954888998602
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.5926513671875,
+          "sample_std": 108.30617812091793,
+          "log_variance": 5.5158267362284645,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 1.240619,
+      "feature_time": 1.05773,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 78.61865234375,
+      "std_intensity": 109.17656255027083,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_003.png",
+      "prediction": "striping",
+      "confidence": 0.6740195335332628,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.239990234375,
+        "sample_std": 96.9374543406211,
+        "log_variance": 2.7225475242724055,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.15912698412698414,
+          0.21338888888888893,
+          0.11644444444444446,
+          0.5110396825396826
+        ],
+        "extra": [
+          0.132,
+          0.21,
+          0.16,
+          0.498
+        ],
+        "gb": [
+          5.412429222623441e-09,
+          5.2616533504695265e-09,
+          1.0602205288913587e-08,
+          0.9999999787237122
+        ],
+        "svm_linear": [
+          0.0006325509939757193,
+          0.03727672688299231,
+          0.004534222488573496,
+          0.9575564996344588
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.7225475242724055,
+        "intensity_variance_correlation": -0.006091431259552062,
+        "extreme_pixel_ratio": 0.239990234375,
+        "edge_density": 0.178955078125,
+        "ensemble_probabilities": {
+          "rf": [
+            0.15912698412698414,
+            0.21338888888888893,
+            0.11644444444444446,
+            0.5110396825396826
+          ],
+          "extra": [
+            0.132,
+            0.21,
+            0.16,
+            0.498
+          ],
+          "gb": [
+            5.412429222623441e-09,
+            5.2616533504695265e-09,
+            1.0602205288913587e-08,
+            0.9999999787237122
+          ],
+          "svm_linear": [
+            0.0006325509939757193,
+            0.03727672688299231,
+            0.004534222488573496,
+            0.9575564996344588
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.239990234375,
+          "sample_std": 96.9374543406211,
+          "log_variance": 2.7225475242724055,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.531477,
+      "feature_time": 0.357723,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 132.40625,
+      "std_intensity": 96.87183840607071,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_004.png",
+      "prediction": "striping",
+      "confidence": 0.9881479953437253,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0567626953125,
+        "sample_std": 65.77762165812929,
+        "log_variance": 0.9767503839419315,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0,
+          0.0033333333333333335,
+          0.0033333333333333335,
+          0.9933333333333333
+        ],
+        "extra": [
+          0.014,
+          0.016,
+          0.0,
+          0.97
+        ],
+        "gb": [
+          9.342876177955848e-09,
+          5.254960794106037e-09,
+          5.2517899799714085e-09,
+          0.9999999801503732
+        ],
+        "svm_linear": [
+          1.2667312407928991e-05,
+          0.0048410689749071945,
+          0.0003329273180309984,
+          0.9948133363946541
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.9767503839419315,
+        "intensity_variance_correlation": 0.15522471531111134,
+        "extreme_pixel_ratio": 0.0567626953125,
+        "edge_density": 0.0546875,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0,
+            0.0033333333333333335,
+            0.0033333333333333335,
+            0.9933333333333333
+          ],
+          "extra": [
+            0.014,
+            0.016,
+            0.0,
+            0.97
+          ],
+          "gb": [
+            9.342876177955848e-09,
+            5.254960794106037e-09,
+            5.2517899799714085e-09,
+            0.9999999801503732
+          ],
+          "svm_linear": [
+            1.2667312407928991e-05,
+            0.0048410689749071945,
+            0.0003329273180309984,
+            0.9948133363946541
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0567626953125,
+          "sample_std": 65.77762165812929,
+          "log_variance": 0.9767503839419315,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.402388,
+      "feature_time": 0.237876,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 127.87158203125,
+      "std_intensity": 65.04464259498762,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_005.png",
+      "prediction": "striping",
+      "confidence": 0.9676745490722161,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 17.57797348501812,
+        "log_variance": 0.080473241169706,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.015,
+          0.012777777777777779,
+          0.009722222222222222,
+          0.9625
+        ],
+        "extra": [
+          0.016,
+          0.024,
+          0.024,
+          0.936
+        ],
+        "gb": [
+          4.0002435604534874e-07,
+          5.224576802568605e-09,
+          1.398460731169079e-06,
+          0.9999981962903359
+        ],
+        "svm_linear": [
+          2.060830970954473e-12,
+          7.275487722691885e-13,
+          8.905479866523467e-13,
+          0.9999999999963212
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.080473241169706,
+        "intensity_variance_correlation": -0.9866279517299047,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.0,
+        "ensemble_probabilities": {
+          "rf": [
+            0.015,
+            0.012777777777777779,
+            0.009722222222222222,
+            0.9625
+          ],
+          "extra": [
+            0.016,
+            0.024,
+            0.024,
+            0.936
+          ],
+          "gb": [
+            4.0002435604534874e-07,
+            5.224576802568605e-09,
+            1.398460731169079e-06,
+            0.9999981962903359
+          ],
+          "svm_linear": [
+            2.060830970954473e-12,
+            7.275487722691885e-13,
+            8.905479866523467e-13,
+            0.9999999999963212
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 17.57797348501812,
+          "log_variance": 0.080473241169706,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.375306,
+      "feature_time": 0.226878,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 63.609375,
+      "std_intensity": 17.592272084906345,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_006.png",
+      "prediction": "striping",
+      "confidence": 0.9887166624751482,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 48.16325148118636,
+        "log_variance": 0.2257071495847341,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0033333333333333335,
+          0.008333333333333333,
+          0.0,
+          0.9883333333333333
+        ],
+        "extra": [
+          0.008,
+          0.016,
+          0.0,
+          0.976
+        ],
+        "gb": [
+          5.689549124493972e-09,
+          5.261152448898337e-09,
+          5.472918397697893e-09,
+          0.99999998357638
+        ],
+        "svm_linear": [
+          4.80052812032307e-10,
+          1.7289549731768574e-10,
+          2.0318608188874757e-10,
+          0.9999999991438656
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.2257071495847341,
+        "intensity_variance_correlation": -0.02841458684673359,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.17657470703125,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0033333333333333335,
+            0.008333333333333333,
+            0.0,
+            0.9883333333333333
+          ],
+          "extra": [
+            0.008,
+            0.016,
+            0.0,
+            0.976
+          ],
+          "gb": [
+            5.689549124493972e-09,
+            5.261152448898337e-09,
+            5.472918397697893e-09,
+            0.99999998357638
+          ],
+          "svm_linear": [
+            4.80052812032307e-10,
+            1.7289549731768574e-10,
+            2.0318608188874757e-10,
+            0.9999999991438656
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 48.16325148118636,
+          "log_variance": 0.2257071495847341,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.454648,
+      "feature_time": 0.297765,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 128.1312255859375,
+      "std_intensity": 48.20417079053853,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_007.png",
+      "prediction": "striping",
+      "confidence": 0.3643541639904779,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.04815673828125,
+        "sample_std": 60.92081463375223,
+        "log_variance": 0.2540405456250193,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.2491666666666667,
+          0.3478888888888888,
+          0.02811111111111111,
+          0.3748333333333334
+        ],
+        "extra": [
+          0.128,
+          0.286,
+          0.056,
+          0.53
+        ],
+        "gb": [
+          0.249291142813846,
+          0.24234817461802,
+          0.25291964593689276,
+          0.25544103663124124
+        ],
+        "svm_linear": [
+          0.024025822547258508,
+          0.8478502862609383,
+          0.025101509531794474,
+          0.10302238166000893
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.2540405456250193,
+        "intensity_variance_correlation": 0.010598090025896373,
+        "extreme_pixel_ratio": 0.04815673828125,
+        "edge_density": 0.14306640625,
+        "ensemble_probabilities": {
+          "rf": [
+            0.2491666666666667,
+            0.3478888888888888,
+            0.02811111111111111,
+            0.3748333333333334
+          ],
+          "extra": [
+            0.128,
+            0.286,
+            0.056,
+            0.53
+          ],
+          "gb": [
+            0.249291142813846,
+            0.24234817461802,
+            0.25291964593689276,
+            0.25544103663124124
+          ],
+          "svm_linear": [
+            0.024025822547258508,
+            0.8478502862609383,
+            0.025101509531794474,
+            0.10302238166000893
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.04815673828125,
+          "sample_std": 60.92081463375223,
+          "log_variance": 0.2540405456250193,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.443163,
+      "feature_time": 0.280436,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 151.7288818359375,
+      "std_intensity": 61.07735738213356,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_008.png",
+      "prediction": "striping",
+      "confidence": 0.6165303996345781,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 46.669890380844045,
+        "log_variance": 0.13168387872955845,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.2026111111111111,
+          0.21000000000000002,
+          0.020166666666666666,
+          0.5672222222222222
+        ],
+        "extra": [
+          0.176,
+          0.242,
+          0.022,
+          0.56
+        ],
+        "gb": [
+          3.2793474918167435e-07,
+          5.261470813251305e-09,
+          5.490981466199457e-09,
+          0.9999996613127985
+        ],
+        "svm_linear": [
+          0.9999625404711593,
+          2.9673095535408604e-06,
+          7.426933280575637e-06,
+          2.7065286006619754e-05
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.13168387872955845,
+        "intensity_variance_correlation": -0.3474061614504228,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.16265869140625,
+        "ensemble_probabilities": {
+          "rf": [
+            0.2026111111111111,
+            0.21000000000000002,
+            0.020166666666666666,
+            0.5672222222222222
+          ],
+          "extra": [
+            0.176,
+            0.242,
+            0.022,
+            0.56
+          ],
+          "gb": [
+            3.2793474918167435e-07,
+            5.261470813251305e-09,
+            5.490981466199457e-09,
+            0.9999996613127985
+          ],
+          "svm_linear": [
+            0.9999625404711593,
+            2.9673095535408604e-06,
+            7.426933280575637e-06,
+            2.7065286006619754e-05
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 46.669890380844045,
+          "log_variance": 0.13168387872955845,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.378017,
+      "feature_time": 0.224155,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 154.12548828125,
+      "std_intensity": 46.67059992353343,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_009.png",
+      "prediction": "striping",
+      "confidence": 0.997599993547873,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 43.93037052381871,
+        "log_variance": 0.17448616696219382,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "extra": [
+          0.0,
+          0.008,
+          0.0,
+          0.992
+        ],
+        "gb": [
+          1.5000787056026986e-08,
+          5.261148048819512e-09,
+          5.490644622458262e-09,
+          0.9999999742474204
+        ],
+        "svm_linear": [
+          7.830408815037068e-11,
+          2.831623206152e-11,
+          3.320076260211427e-11,
+          0.999999999860179
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.17448616696219382,
+        "intensity_variance_correlation": 0.0454936175750101,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.2088623046875,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "extra": [
+            0.0,
+            0.008,
+            0.0,
+            0.992
+          ],
+          "gb": [
+            1.5000787056026986e-08,
+            5.261148048819512e-09,
+            5.490644622458262e-09,
+            0.9999999742474204
+          ],
+          "svm_linear": [
+            7.830408815037068e-11,
+            2.831623206152e-11,
+            3.320076260211427e-11,
+            0.999999999860179
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 43.93037052381871,
+          "log_variance": 0.17448616696219382,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.371251,
+      "feature_time": 0.231971,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 127.341064453125,
+      "std_intensity": 44.51436366499865,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_010.png",
+      "prediction": "striping",
+      "confidence": 0.986771933993353,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 31.52674147196313,
+        "log_variance": 0.33812640976914876,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.010555555555555556,
+          0.006666666666666667,
+          0.0,
+          0.9827777777777778
+        ],
+        "extra": [
+          0.008,
+          0.012,
+          0.004,
+          0.976
+        ],
+        "gb": [
+          4.3245460743172516e-08,
+          5.217816632640179e-09,
+          1.104440744259876e-06,
+          0.9999988470959784
+        ],
+        "svm_linear": [
+          1.6084017647991417e-11,
+          5.756709575823767e-12,
+          6.797124056367645e-12,
+          0.9999999999713621
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.33812640976914876,
+        "intensity_variance_correlation": 0.0067314057297393395,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.140625,
+        "ensemble_probabilities": {
+          "rf": [
+            0.010555555555555556,
+            0.006666666666666667,
+            0.0,
+            0.9827777777777778
+          ],
+          "extra": [
+            0.008,
+            0.012,
+            0.004,
+            0.976
+          ],
+          "gb": [
+            4.3245460743172516e-08,
+            5.217816632640179e-09,
+            1.104440744259876e-06,
+            0.9999988470959784
+          ],
+          "svm_linear": [
+            1.6084017647991417e-11,
+            5.756709575823767e-12,
+            6.797124056367645e-12,
+            0.9999999999713621
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 31.52674147196313,
+          "log_variance": 0.33812640976914876,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.387865,
+      "feature_time": 0.228732,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 63.640625,
+      "std_intensity": 31.56855990711922,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_011.png",
+      "prediction": "striping",
+      "confidence": 0.7321795126080386,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.29656982421875,
+        "sample_std": 92.45069111607549,
+        "log_variance": 3.234998496213398,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.07561111111111112,
+          0.2921666666666667,
+          0.05672222222222222,
+          0.5755
+        ],
+        "extra": [
+          0.06,
+          0.26,
+          0.07,
+          0.61
+        ],
+        "gb": [
+          5.4123037675808735e-09,
+          5.925005053333278e-09,
+          5.487933923199793e-09,
+          0.9999999831747574
+        ],
+        "svm_linear": [
+          0.0003023384537114269,
+          0.022131216751010027,
+          2.1276651786323404e-05,
+          0.9775451681434923
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 3.234998496213398,
+        "intensity_variance_correlation": -0.06316582403674592,
+        "extreme_pixel_ratio": 0.29656982421875,
+        "edge_density": 0.10162353515625,
+        "ensemble_probabilities": {
+          "rf": [
+            0.07561111111111112,
+            0.2921666666666667,
+            0.05672222222222222,
+            0.5755
+          ],
+          "extra": [
+            0.06,
+            0.26,
+            0.07,
+            0.61
+          ],
+          "gb": [
+            5.4123037675808735e-09,
+            5.925005053333278e-09,
+            5.487933923199793e-09,
+            0.9999999831747574
+          ],
+          "svm_linear": [
+            0.0003023384537114269,
+            0.022131216751010027,
+            2.1276651786323404e-05,
+            0.9775451681434923
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.29656982421875,
+          "sample_std": 92.45069111607549,
+          "log_variance": 3.234998496213398,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.507247,
+      "feature_time": 0.354635,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 116.18719482421875,
+      "std_intensity": 92.10805795597909,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_012.png",
+      "prediction": "striping",
+      "confidence": 0.6308521313699157,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.5946044921875,
+        "sample_std": 109.50519965663732,
+        "log_variance": 5.522783479278577,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.06205555555555556,
+          0.2173333333333333,
+          0.16777777777777778,
+          0.5528333333333333
+        ],
+        "extra": [
+          0.058,
+          0.232,
+          0.218,
+          0.492
+        ],
+        "gb": [
+          5.41242656007259e-09,
+          5.1911745656150724e-09,
+          1.0446436792552308e-06,
+          0.9999989447527196
+        ],
+        "svm_linear": [
+          0.06828611493815455,
+          0.19984481639318327,
+          0.33426178351797026,
+          0.39760728515069177
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 5.522783479278577,
+        "intensity_variance_correlation": -0.010389429369556879,
+        "extreme_pixel_ratio": 0.5946044921875,
+        "edge_density": 0.193359375,
+        "ensemble_probabilities": {
+          "rf": [
+            0.06205555555555556,
+            0.2173333333333333,
+            0.16777777777777778,
+            0.5528333333333333
+          ],
+          "extra": [
+            0.058,
+            0.232,
+            0.218,
+            0.492
+          ],
+          "gb": [
+            5.41242656007259e-09,
+            5.1911745656150724e-09,
+            1.0446436792552308e-06,
+            0.9999989447527196
+          ],
+          "svm_linear": [
+            0.06828611493815455,
+            0.19984481639318327,
+            0.33426178351797026,
+            0.39760728515069177
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.5946044921875,
+          "sample_std": 109.50519965663732,
+          "log_variance": 5.522783479278577,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 1.077037,
+      "feature_time": 0.914628,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 77.727783203125,
+      "std_intensity": 109.71366817289903,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_013.png",
+      "prediction": "striping",
+      "confidence": 0.6586473215920612,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.2362060546875,
+        "sample_std": 97.36223601355917,
+        "log_variance": 2.659574025197689,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.13722222222222222,
+          0.25144444444444447,
+          0.11005555555555556,
+          0.5012777777777777
+        ],
+        "extra": [
+          0.154,
+          0.202,
+          0.178,
+          0.466
+        ],
+        "gb": [
+          5.410034557560253e-09,
+          5.2615575507510095e-09,
+          9.381090139577974e-09,
+          0.9999999799473178
+        ],
+        "svm_linear": [
+          0.0014020243359352195,
+          0.04999411274966529,
+          0.014602819084304901,
+          0.9340010438300946
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.659574025197689,
+        "intensity_variance_correlation": 0.05031755877724359,
+        "extreme_pixel_ratio": 0.2362060546875,
+        "edge_density": 0.18548583984375,
+        "ensemble_probabilities": {
+          "rf": [
+            0.13722222222222222,
+            0.25144444444444447,
+            0.11005555555555556,
+            0.5012777777777777
+          ],
+          "extra": [
+            0.154,
+            0.202,
+            0.178,
+            0.466
+          ],
+          "gb": [
+            5.410034557560253e-09,
+            5.2615575507510095e-09,
+            9.381090139577974e-09,
+            0.9999999799473178
+          ],
+          "svm_linear": [
+            0.0014020243359352195,
+            0.04999411274966529,
+            0.014602819084304901,
+            0.9340010438300946
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.2362060546875,
+          "sample_std": 97.36223601355917,
+          "log_variance": 2.659574025197689,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.492344,
+      "feature_time": 0.331033,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 133.457763671875,
+      "std_intensity": 97.36397098002338,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_014.png",
+      "prediction": "striping",
+      "confidence": 0.9903868732165978,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.032958984375,
+        "sample_std": 59.72116203959867,
+        "log_variance": 0.787388239020869,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0,
+          0.006666666666666667,
+          0.0,
+          0.9933333333333333
+        ],
+        "extra": [
+          0.022,
+          0.0,
+          0.0,
+          0.978
+        ],
+        "gb": [
+          5.388206645413157e-09,
+          5.249397402872555e-09,
+          5.249595320679976e-09,
+          0.9999999841128007
+        ],
+        "svm_linear": [
+          2.1674476874993022e-05,
+          0.006637596438176138,
+          0.00013862386763958885,
+          0.9932021052173093
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.787388239020869,
+        "intensity_variance_correlation": 0.17664396294475587,
+        "extreme_pixel_ratio": 0.032958984375,
+        "edge_density": 0.125,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0,
+            0.006666666666666667,
+            0.0,
+            0.9933333333333333
+          ],
+          "extra": [
+            0.022,
+            0.0,
+            0.0,
+            0.978
+          ],
+          "gb": [
+            5.388206645413157e-09,
+            5.249397402872555e-09,
+            5.249595320679976e-09,
+            0.9999999841128007
+          ],
+          "svm_linear": [
+            2.1674476874993022e-05,
+            0.006637596438176138,
+            0.00013862386763958885,
+            0.9932021052173093
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.032958984375,
+          "sample_std": 59.72116203959867,
+          "log_variance": 0.787388239020869,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.382511,
+      "feature_time": 0.246988,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 125.607177734375,
+      "std_intensity": 60.228522837012754,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_015.png",
+      "prediction": "striping",
+      "confidence": 0.9305853926981136,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 10.181720491154724,
+        "log_variance": 0.025659320134622098,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.07055555555555555,
+          0.025,
+          0.0033333333333333335,
+          0.9011111111111112
+        ],
+        "extra": [
+          0.06,
+          0.04,
+          0.016,
+          0.884
+        ],
+        "gb": [
+          1.0038643883784425e-06,
+          5.24861645237093e-09,
+          1.293486652102415e-05,
+          0.9999860560204742
+        ],
+        "svm_linear": [
+          5.307233210552788e-08,
+          1.752486881698457e-08,
+          3.136173680233073e-08,
+          0.9999998980410623
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.025659320134622098,
+        "intensity_variance_correlation": -0.9983772316272714,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.0,
+        "ensemble_probabilities": {
+          "rf": [
+            0.07055555555555555,
+            0.025,
+            0.0033333333333333335,
+            0.9011111111111112
+          ],
+          "extra": [
+            0.06,
+            0.04,
+            0.016,
+            0.884
+          ],
+          "gb": [
+            1.0038643883784425e-06,
+            5.24861645237093e-09,
+            1.293486652102415e-05,
+            0.9999860560204742
+          ],
+          "svm_linear": [
+            5.307233210552788e-08,
+            1.752486881698457e-08,
+            3.136173680233073e-08,
+            0.9999998980410623
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 10.181720491154724,
+          "log_variance": 0.025659320134622098,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.345959,
+      "feature_time": 0.204358,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 63.5859375,
+      "std_intensity": 10.190012990477184,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_016.png",
+      "prediction": "striping",
+      "confidence": 0.997599993547873,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 44.48002490601821,
+        "log_variance": 0.17448616696219382,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "extra": [
+          0.0,
+          0.008,
+          0.0,
+          0.992
+        ],
+        "gb": [
+          1.5000787056026986e-08,
+          5.261148048819512e-09,
+          5.490644622458262e-09,
+          0.9999999742474204
+        ],
+        "svm_linear": [
+          7.830408815037068e-11,
+          2.831623206152e-11,
+          3.320076260211427e-11,
+          0.999999999860179
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.17448616696219382,
+        "intensity_variance_correlation": 0.0454936175750101,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.2088623046875,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "extra": [
+            0.0,
+            0.008,
+            0.0,
+            0.992
+          ],
+          "gb": [
+            1.5000787056026986e-08,
+            5.261148048819512e-09,
+            5.490644622458262e-09,
+            0.9999999742474204
+          ],
+          "svm_linear": [
+            7.830408815037068e-11,
+            2.831623206152e-11,
+            3.320076260211427e-11,
+            0.999999999860179
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 44.48002490601821,
+          "log_variance": 0.17448616696219382,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.359356,
+      "feature_time": 0.218024,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 127.341064453125,
+      "std_intensity": 44.51436366499865,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_017.png",
+      "prediction": "striping",
+      "confidence": 0.3699039258872193,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.03656005859375,
+        "sample_std": 58.46776133904906,
+        "log_variance": 0.2174419377520489,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.24444444444444446,
+          0.3606666666666666,
+          0.02811111111111111,
+          0.3667777777777778
+        ],
+        "extra": [
+          0.136,
+          0.286,
+          0.036,
+          0.542
+        ],
+        "gb": [
+          0.24929239338480685,
+          0.24234777085346892,
+          0.25291922455972554,
+          0.2554406112019986
+        ],
+        "svm_linear": [
+          0.04961424198158443,
+          0.7709298433187494,
+          0.02874040605469192,
+          0.1507155086449744
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.2174419377520489,
+        "intensity_variance_correlation": -0.001351727168392783,
+        "extreme_pixel_ratio": 0.03656005859375,
+        "edge_density": 0.1690673828125,
+        "ensemble_probabilities": {
+          "rf": [
+            0.24444444444444446,
+            0.3606666666666666,
+            0.02811111111111111,
+            0.3667777777777778
+          ],
+          "extra": [
+            0.136,
+            0.286,
+            0.036,
+            0.542
+          ],
+          "gb": [
+            0.24929239338480685,
+            0.24234777085346892,
+            0.25291922455972554,
+            0.2554406112019986
+          ],
+          "svm_linear": [
+            0.04961424198158443,
+            0.7709298433187494,
+            0.02874040605469192,
+            0.1507155086449744
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.03656005859375,
+          "sample_std": 58.46776133904906,
+          "log_variance": 0.2174419377520489,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.359814,
+      "feature_time": 0.213757,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 152.1304931640625,
+      "std_intensity": 58.566139851958255,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_018.png",
+      "prediction": "striping",
+      "confidence": 0.6805275410523897,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0140380859375,
+        "sample_std": 61.10252445979626,
+        "log_variance": 0.2971920973148202,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.1572222222222222,
+          0.21155555555555555,
+          0.03433333333333333,
+          0.5968888888888888
+        ],
+        "extra": [
+          0.1,
+          0.23,
+          0.02,
+          0.65
+        ],
+        "gb": [
+          5.412293654477608e-09,
+          5.2615215593135e-09,
+          5.491034425855946e-09,
+          0.9999999838351503
+        ],
+        "svm_linear": [
+          0.2747428788368345,
+          0.3841123600221421,
+          0.07498042131611325,
+          0.26616433982490995
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.2971920973148202,
+        "intensity_variance_correlation": -0.22135247957879786,
+        "extreme_pixel_ratio": 0.0140380859375,
+        "edge_density": 0.09619140625,
+        "ensemble_probabilities": {
+          "rf": [
+            0.1572222222222222,
+            0.21155555555555555,
+            0.03433333333333333,
+            0.5968888888888888
+          ],
+          "extra": [
+            0.1,
+            0.23,
+            0.02,
+            0.65
+          ],
+          "gb": [
+            5.412293654477608e-09,
+            5.2615215593135e-09,
+            5.491034425855946e-09,
+            0.9999999838351503
+          ],
+          "svm_linear": [
+            0.2747428788368345,
+            0.3841123600221421,
+            0.07498042131611325,
+            0.26616433982490995
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0140380859375,
+          "sample_std": 61.10252445979626,
+          "log_variance": 0.2971920973148202,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.385853,
+      "feature_time": 0.229242,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 156.541259765625,
+      "std_intensity": 61.44411508905514,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_019.png",
+      "prediction": "striping",
+      "confidence": 0.9844055474896045,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 43.640142546055,
+        "log_variance": 0.15634957892353962,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.008333333333333333,
+          0.006666666666666667,
+          0.005555555555555555,
+          0.9794444444444446
+        ],
+        "extra": [
+          0.012,
+          0.016,
+          0.0,
+          0.972
+        ],
+        "gb": [
+          2.1493165627068757e-08,
+          5.261148014662146e-09,
+          5.490644586810917e-09,
+          0.9999999677550416
+        ],
+        "svm_linear": [
+          2.6346440950782264e-11,
+          9.572980355928923e-12,
+          1.1195354881595976e-11,
+          0.9999999999528852
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.15634957892353962,
+        "intensity_variance_correlation": -0.02026728898110531,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.24749755859375,
+        "ensemble_probabilities": {
+          "rf": [
+            0.008333333333333333,
+            0.006666666666666667,
+            0.005555555555555555,
+            0.9794444444444446
+          ],
+          "extra": [
+            0.012,
+            0.016,
+            0.0,
+            0.972
+          ],
+          "gb": [
+            2.1493165627068757e-08,
+            5.261148014662146e-09,
+            5.490644586810917e-09,
+            0.9999999677550416
+          ],
+          "svm_linear": [
+            2.6346440950782264e-11,
+            9.572980355928923e-12,
+            1.1195354881595976e-11,
+            0.9999999999528852
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 43.640142546055,
+          "log_variance": 0.15634957892353962,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.374969,
+      "feature_time": 0.236779,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 127.1231689453125,
+      "std_intensity": 42.963289031578,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_020.png",
+      "prediction": "striping",
+      "confidence": 0.9821996290287901,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 28.01824779603464,
+        "log_variance": 0.24043927259054498,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.005,
+          0.015,
+          0.0,
+          0.98
+        ],
+        "extra": [
+          0.008,
+          0.02,
+          0.008,
+          0.964
+        ],
+        "gb": [
+          5.224427601489726e-07,
+          6.69191800887159e-09,
+          9.547501307695492e-07,
+          0.9999985161151911
+        ],
+        "svm_linear": [
+          2.1908458261177988e-14,
+          3.992207935208964e-14,
+          1.4174631293936061e-14,
+          0.999999999999924
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.24043927259054498,
+        "intensity_variance_correlation": -0.6985134140716943,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.1640625,
+        "ensemble_probabilities": {
+          "rf": [
+            0.005,
+            0.015,
+            0.0,
+            0.98
+          ],
+          "extra": [
+            0.008,
+            0.02,
+            0.008,
+            0.964
+          ],
+          "gb": [
+            5.224427601489726e-07,
+            6.69191800887159e-09,
+            9.547501307695492e-07,
+            0.9999985161151911
+          ],
+          "svm_linear": [
+            2.1908458261177988e-14,
+            3.992207935208964e-14,
+            1.4174631293936061e-14,
+            0.999999999999924
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 28.01824779603464,
+          "log_variance": 0.24043927259054498,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.358055,
+      "feature_time": 0.211221,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 64.625,
+      "std_intensity": 28.06660604704459,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_021.png",
+      "prediction": "striping",
+      "confidence": 0.7407620730446458,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.26824951171875,
+        "sample_std": 94.97186006623225,
+        "log_variance": 2.99905020020993,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.10116666666666665,
+          0.24372222222222226,
+          0.051722222222222225,
+          0.603388888888889
+        ],
+        "extra": [
+          0.1,
+          0.224,
+          0.076,
+          0.6
+        ],
+        "gb": [
+          5.412294650405528e-09,
+          5.92499507249844e-09,
+          5.4705246162515146e-09,
+          0.9999999831921856
+        ],
+        "svm_linear": [
+          2.73702351448094e-05,
+          0.0042042211504858505,
+          8.747259487443695e-06,
+          0.995759661354882
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.99905020020993,
+        "intensity_variance_correlation": -0.06253858553452715,
+        "extreme_pixel_ratio": 0.26824951171875,
+        "edge_density": 0.1319580078125,
+        "ensemble_probabilities": {
+          "rf": [
+            0.10116666666666665,
+            0.24372222222222226,
+            0.051722222222222225,
+            0.603388888888889
+          ],
+          "extra": [
+            0.1,
+            0.224,
+            0.076,
+            0.6
+          ],
+          "gb": [
+            5.412294650405528e-09,
+            5.92499507249844e-09,
+            5.4705246162515146e-09,
+            0.9999999831921856
+          ],
+          "svm_linear": [
+            2.73702351448094e-05,
+            0.0042042211504858505,
+            8.747259487443695e-06,
+            0.995759661354882
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.26824951171875,
+          "sample_std": 94.97186006623225,
+          "log_variance": 2.99905020020993,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.635403,
+      "feature_time": 0.435882,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 113.9281005859375,
+      "std_intensity": 94.90992314881981,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_022.png",
+      "prediction": "striping",
+      "confidence": 0.5344869448491054,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.608154296875,
+        "sample_std": 112.32696623536133,
+        "log_variance": 5.5483643081654215,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.16055555555555556,
+          0.24177777777777776,
+          0.13061111111111115,
+          0.4670555555555555
+        ],
+        "extra": [
+          0.132,
+          0.224,
+          0.274,
+          0.37
+        ],
+        "gb": [
+          6.102496636452305e-09,
+          5.19123671019916e-09,
+          1.0434651554583164e-06,
+          0.9999989452411112
+        ],
+        "svm_linear": [
+          0.059272305863580343,
+          0.5702341433793747,
+          0.27031590981321335,
+          0.10017764094383162
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 5.5483643081654215,
+        "intensity_variance_correlation": -0.008522639378737897,
+        "extreme_pixel_ratio": 0.608154296875,
+        "edge_density": 0.088134765625,
+        "ensemble_probabilities": {
+          "rf": [
+            0.16055555555555556,
+            0.24177777777777776,
+            0.13061111111111115,
+            0.4670555555555555
+          ],
+          "extra": [
+            0.132,
+            0.224,
+            0.274,
+            0.37
+          ],
+          "gb": [
+            6.102496636452305e-09,
+            5.19123671019916e-09,
+            1.0434651554583164e-06,
+            0.9999989452411112
+          ],
+          "svm_linear": [
+            0.059272305863580343,
+            0.5702341433793747,
+            0.27031590981321335,
+            0.10017764094383162
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.608154296875,
+          "sample_std": 112.32696623536133,
+          "log_variance": 5.5483643081654215,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 1.245802,
+      "feature_time": 1.057171,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 76.455810546875,
+      "std_intensity": 112.40310171791461,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_023.png",
+      "prediction": "striping",
+      "confidence": 0.6257448953280851,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.2171630859375,
+        "sample_std": 97.85639903429923,
+        "log_variance": 2.477695592937266,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.15446031746031746,
+          0.22116666666666665,
+          0.1408888888888889,
+          0.48348412698412696
+        ],
+        "extra": [
+          0.178,
+          0.218,
+          0.17,
+          0.434
+        ],
+        "gb": [
+          5.412372962257727e-09,
+          5.261598614934122e-09,
+          1.0598852436003295e-08,
+          0.999999978727176
+        ],
+        "svm_linear": [
+          0.0037067906517084825,
+          0.2013796169889012,
+          0.031659030340923135,
+          0.7632545620184674
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.477695592937266,
+        "intensity_variance_correlation": 0.10608517088182592,
+        "extreme_pixel_ratio": 0.2171630859375,
+        "edge_density": 0.21307373046875,
+        "ensemble_probabilities": {
+          "rf": [
+            0.15446031746031746,
+            0.22116666666666665,
+            0.1408888888888889,
+            0.48348412698412696
+          ],
+          "extra": [
+            0.178,
+            0.218,
+            0.17,
+            0.434
+          ],
+          "gb": [
+            5.412372962257727e-09,
+            5.261598614934122e-09,
+            1.0598852436003295e-08,
+            0.999999978727176
+          ],
+          "svm_linear": [
+            0.0037067906517084825,
+            0.2013796169889012,
+            0.031659030340923135,
+            0.7632545620184674
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.2171630859375,
+          "sample_std": 97.85639903429923,
+          "log_variance": 2.477695592937266,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.485541,
+      "feature_time": 0.332456,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 133.129150390625,
+      "std_intensity": 97.96141903323331,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_024.png",
+      "prediction": "striping",
+      "confidence": 0.9891306669867657,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.02618408203125,
+        "sample_std": 59.058505094524705,
+        "log_variance": 0.7027382162044218,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.005,
+          0.006666666666666667,
+          0.0,
+          0.9883333333333333
+        ],
+        "extra": [
+          0.014,
+          0.008,
+          0.0,
+          0.978
+        ],
+        "gb": [
+          3.8746601197132385e-08,
+          5.2527050488934576e-09,
+          5.251421761506102e-09,
+          0.9999999507492721
+        ],
+        "svm_linear": [
+          1.716489111138909e-06,
+          0.00181671315176594,
+          4.144403131306691e-05,
+          0.9981401263278099
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.7027382162044218,
+        "intensity_variance_correlation": 0.2253579043978911,
+        "extreme_pixel_ratio": 0.02618408203125,
+        "edge_density": 0.1484375,
+        "ensemble_probabilities": {
+          "rf": [
+            0.005,
+            0.006666666666666667,
+            0.0,
+            0.9883333333333333
+          ],
+          "extra": [
+            0.014,
+            0.008,
+            0.0,
+            0.978
+          ],
+          "gb": [
+            3.8746601197132385e-08,
+            5.2527050488934576e-09,
+            5.251421761506102e-09,
+            0.9999999507492721
+          ],
+          "svm_linear": [
+            1.716489111138909e-06,
+            0.00181671315176594,
+            4.144403131306691e-05,
+            0.9981401263278099
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.02618408203125,
+          "sample_std": 59.058505094524705,
+          "log_variance": 0.7027382162044218,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.377663,
+      "feature_time": 0.229273,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 125.6925048828125,
+      "std_intensity": 58.936384056864384,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_025.png",
+      "prediction": "striping",
+      "confidence": 0.8804037639882455,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 42.4913472598834,
+        "log_variance": 1.0428175136195237,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.008055555555555555,
+          0.006666666666666667,
+          0.006666666666666667,
+          0.9786111111111111
+        ],
+        "extra": [
+          0.048,
+          0.012,
+          0.016,
+          0.924
+        ],
+        "gb": [
+          0.35724037642040596,
+          3.3789965624058995e-09,
+          1.1125420340525018e-07,
+          0.642759508946394
+        ],
+        "svm_linear": [
+          8.190626064031686e-09,
+          7.234001234558959e-09,
+          5.947792038015013e-09,
+          0.9999999786275806
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 1.0428175136195237,
+        "intensity_variance_correlation": 0.028722700505345516,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.0,
+        "ensemble_probabilities": {
+          "rf": [
+            0.008055555555555555,
+            0.006666666666666667,
+            0.006666666666666667,
+            0.9786111111111111
+          ],
+          "extra": [
+            0.048,
+            0.012,
+            0.016,
+            0.924
+          ],
+          "gb": [
+            0.35724037642040596,
+            3.3789965624058995e-09,
+            1.1125420340525018e-07,
+            0.642759508946394
+          ],
+          "svm_linear": [
+            8.190626064031686e-09,
+            7.234001234558959e-09,
+            5.947792038015013e-09,
+            0.9999999786275806
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 42.4913472598834,
+          "log_variance": 1.0428175136195237,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.351452,
+      "feature_time": 0.209815,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 66.09375,
+      "std_intensity": 42.68240956105337,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_026.png",
+      "prediction": "striping",
+      "confidence": 0.9844055474896045,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 43.55804611963213,
+        "log_variance": 0.15634957892353962,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.008333333333333333,
+          0.006666666666666667,
+          0.005555555555555555,
+          0.9794444444444446
+        ],
+        "extra": [
+          0.012,
+          0.016,
+          0.0,
+          0.972
+        ],
+        "gb": [
+          2.1493165627068757e-08,
+          5.261148014662146e-09,
+          5.490644586810917e-09,
+          0.9999999677550416
+        ],
+        "svm_linear": [
+          2.6346440950782264e-11,
+          9.572980355928923e-12,
+          1.1195354881595976e-11,
+          0.9999999999528852
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.15634957892353962,
+        "intensity_variance_correlation": -0.02026728898110531,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.24749755859375,
+        "ensemble_probabilities": {
+          "rf": [
+            0.008333333333333333,
+            0.006666666666666667,
+            0.005555555555555555,
+            0.9794444444444446
+          ],
+          "extra": [
+            0.012,
+            0.016,
+            0.0,
+            0.972
+          ],
+          "gb": [
+            2.1493165627068757e-08,
+            5.261148014662146e-09,
+            5.490644586810917e-09,
+            0.9999999677550416
+          ],
+          "svm_linear": [
+            2.6346440950782264e-11,
+            9.572980355928923e-12,
+            1.1195354881595976e-11,
+            0.9999999999528852
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 43.55804611963213,
+          "log_variance": 0.15634957892353962,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.349211,
+      "feature_time": 0.219479,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 127.1231689453125,
+      "std_intensity": 42.963289031578,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_027.png",
+      "prediction": "striping",
+      "confidence": 0.37440371863183736,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.033935546875,
+        "sample_std": 57.985860190567145,
+        "log_variance": 0.20143929117636183,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.25500000000000006,
+          0.34622222222222215,
+          0.02811111111111111,
+          0.3706666666666667
+        ],
+        "extra": [
+          0.142,
+          0.306,
+          0.04,
+          0.512
+        ],
+        "gb": [
+          0.24929239338480685,
+          0.24234777085346892,
+          0.25291922455972554,
+          0.2554406112019986
+        ],
+        "svm_linear": [
+          0.2286606925185522,
+          0.4076584587001369,
+          0.09157852380126778,
+          0.27210232498004355
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.20143929117636183,
+        "intensity_variance_correlation": 0.014359887524152633,
+        "extreme_pixel_ratio": 0.033935546875,
+        "edge_density": 0.1885986328125,
+        "ensemble_probabilities": {
+          "rf": [
+            0.25500000000000006,
+            0.34622222222222215,
+            0.02811111111111111,
+            0.3706666666666667
+          ],
+          "extra": [
+            0.142,
+            0.306,
+            0.04,
+            0.512
+          ],
+          "gb": [
+            0.24929239338480685,
+            0.24234777085346892,
+            0.25291922455972554,
+            0.2554406112019986
+          ],
+          "svm_linear": [
+            0.2286606925185522,
+            0.4076584587001369,
+            0.09157852380126778,
+            0.27210232498004355
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.033935546875,
+          "sample_std": 57.985860190567145,
+          "log_variance": 0.20143929117636183,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.37346,
+      "feature_time": 0.220013,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 153.23663330078125,
+      "std_intensity": 58.05590523882071,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_028.png",
+      "prediction": "striping",
+      "confidence": 0.6449100820867866,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.00616455078125,
+        "sample_std": 58.454744970447,
+        "log_variance": 0.25152426464873184,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.14222222222222222,
+          0.22388888888888892,
+          0.026,
+          0.6078888888888888
+        ],
+        "extra": [
+          0.122,
+          0.252,
+          0.03,
+          0.596
+        ],
+        "gb": [
+          2.673952551872517e-08,
+          5.261517382246862e-09,
+          5.491030066581457e-09,
+          0.9999999625079271
+        ],
+        "svm_linear": [
+          0.8429236742140765,
+          0.11394036930528008,
+          0.00964615299370501,
+          0.03348980348693849
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.25152426464873184,
+        "intensity_variance_correlation": -0.26125654228132944,
+        "extreme_pixel_ratio": 0.00616455078125,
+        "edge_density": 0.1351318359375,
+        "ensemble_probabilities": {
+          "rf": [
+            0.14222222222222222,
+            0.22388888888888892,
+            0.026,
+            0.6078888888888888
+          ],
+          "extra": [
+            0.122,
+            0.252,
+            0.03,
+            0.596
+          ],
+          "gb": [
+            2.673952551872517e-08,
+            5.261517382246862e-09,
+            5.491030066581457e-09,
+            0.9999999625079271
+          ],
+          "svm_linear": [
+            0.8429236742140765,
+            0.11394036930528008,
+            0.00964615299370501,
+            0.03348980348693849
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.00616455078125,
+          "sample_std": 58.454744970447,
+          "log_variance": 0.25152426464873184,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.450803,
+      "feature_time": 0.296003,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 154.0750732421875,
+      "std_intensity": 58.509258696945736,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_029.png",
+      "prediction": "striping",
+      "confidence": 0.9652749843128368,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 40.32771968509997,
+        "log_variance": 0.13083039119008794,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0375,
+          0.0,
+          0.0,
+          0.9625
+        ],
+        "extra": [
+          0.068,
+          0.004,
+          0.0,
+          0.928
+        ],
+        "gb": [
+          5.199692951953239e-08,
+          5.25840261384578e-09,
+          5.487779473545572e-09,
+          0.9999999372568883
+        ],
+        "svm_linear": [
+          7.742374842245487e-12,
+          2.8179543669156196e-12,
+          3.2930173678804974e-12,
+          0.9999999999861466
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.13083039119008794,
+        "intensity_variance_correlation": -0.01848186577191349,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.2615966796875,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0375,
+            0.0,
+            0.0,
+            0.9625
+          ],
+          "extra": [
+            0.068,
+            0.004,
+            0.0,
+            0.928
+          ],
+          "gb": [
+            5.199692951953239e-08,
+            5.25840261384578e-09,
+            5.487779473545572e-09,
+            0.9999999372568883
+          ],
+          "svm_linear": [
+            7.742374842245487e-12,
+            2.8179543669156196e-12,
+            3.2930173678804974e-12,
+            0.9999999999861466
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 40.32771968509997,
+          "log_variance": 0.13083039119008794,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.406157,
+      "feature_time": 0.249793,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 127.1046142578125,
+      "std_intensity": 40.507739943252666,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_030.png",
+      "prediction": "striping",
+      "confidence": 0.9843052206500651,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 21.224950736338588,
+        "log_variance": 0.12209416263063341,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.007222222222222222,
+          0.0033333333333333335,
+          0.0,
+          0.9894444444444443
+        ],
+        "extra": [
+          0.016,
+          0.02,
+          0.004,
+          0.96
+        ],
+        "gb": [
+          3.7625500338097905e-07,
+          6.689185198976316e-09,
+          9.566515461249607e-07,
+          0.9999986604042654
+        ],
+        "svm_linear": [
+          3.6788283227666045e-11,
+          1.3200009483150607e-11,
+          1.5579098352273277e-11,
+          0.9999999999344327
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.12209416263063341,
+        "intensity_variance_correlation": -0.02750494991640343,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.0,
+        "ensemble_probabilities": {
+          "rf": [
+            0.007222222222222222,
+            0.0033333333333333335,
+            0.0,
+            0.9894444444444443
+          ],
+          "extra": [
+            0.016,
+            0.02,
+            0.004,
+            0.96
+          ],
+          "gb": [
+            3.7625500338097905e-07,
+            6.689185198976316e-09,
+            9.566515461249607e-07,
+            0.9999986604042654
+          ],
+          "svm_linear": [
+            3.6788283227666045e-11,
+            1.3200009483150607e-11,
+            1.5579098352273277e-11,
+            0.9999999999344327
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 21.224950736338588,
+          "log_variance": 0.12209416263063341,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.401084,
+      "feature_time": 0.247206,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 63.8359375,
+      "std_intensity": 21.109009237671334,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_031.png",
+      "prediction": "striping",
+      "confidence": 0.7255701909987753,
+      "stage1_decision": "salt_pepper",
+      "stage1_confidence": 0.88,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.214599609375,
+        "isolation_ratio": 0.40602786465737845,
+        "balance_ratio": 0.616551724137931,
+        "black_ratio": 0.08184814453125,
+        "white_ratio": 0.13275146484375,
+        "method": "balanced_isolation_test"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.1011111111111111,
+          0.25177777777777777,
+          0.043888888888888894,
+          0.6032222222222222
+        ],
+        "extra": [
+          0.098,
+          0.268,
+          0.078,
+          0.556
+        ],
+        "gb": [
+          5.41231074702575e-09,
+          5.261538175708747e-09,
+          5.488112853469741e-09,
+          0.9999999838380382
+        ],
+        "svm_linear": [
+          0.0004710023591387844,
+          0.02306161894801619,
+          4.3206077964629835e-05,
+          0.9764241726148801
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.4367786145886083,
+        "intensity_variance_correlation": -0.01860680600136956,
+        "extreme_pixel_ratio": 0.214599609375,
+        "edge_density": 0.161865234375,
+        "ensemble_probabilities": {
+          "rf": [
+            0.1011111111111111,
+            0.25177777777777777,
+            0.043888888888888894,
+            0.6032222222222222
+          ],
+          "extra": [
+            0.098,
+            0.268,
+            0.078,
+            0.556
+          ],
+          "gb": [
+            5.41231074702575e-09,
+            5.261538175708747e-09,
+            5.488112853469741e-09,
+            0.9999999838380382
+          ],
+          "svm_linear": [
+            0.0004710023591387844,
+            0.02306161894801619,
+            4.3206077964629835e-05,
+            0.9764241726148801
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.214599609375,
+          "isolation_ratio": 0.40602786465737845,
+          "balance_ratio": 0.616551724137931,
+          "black_ratio": 0.08184814453125,
+          "white_ratio": 0.13275146484375,
+          "method": "balanced_isolation_test"
+        }
+      },
+      "processing_time": 0.474721,
+      "feature_time": 0.317523,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 114.07452392578125,
+      "std_intensity": 93.04726595422125,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_032.png",
+      "prediction": "striping",
+      "confidence": 0.6925936486365427,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.45953369140625,
+        "sample_std": 98.46697059847023,
+        "log_variance": 5.0530135949332475,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.07916666666666666,
+          0.17205555555555557,
+          0.09811111111111111,
+          0.6506666666666667
+        ],
+        "extra": [
+          0.088,
+          0.148,
+          0.15,
+          0.614
+        ],
+        "gb": [
+          5.412410255771458e-09,
+          5.261634912405665e-09,
+          3.02197692598193e-08,
+          0.9999999591061856
+        ],
+        "svm_linear": [
+          0.047809198045080464,
+          0.21469389795776034,
+          0.4308936487305298,
+          0.3066032552666297
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 5.0530135949332475,
+        "intensity_variance_correlation": 0.5559768701675712,
+        "extreme_pixel_ratio": 0.45953369140625,
+        "edge_density": 0.0877685546875,
+        "ensemble_probabilities": {
+          "rf": [
+            0.07916666666666666,
+            0.17205555555555557,
+            0.09811111111111111,
+            0.6506666666666667
+          ],
+          "extra": [
+            0.088,
+            0.148,
+            0.15,
+            0.614
+          ],
+          "gb": [
+            5.412410255771458e-09,
+            5.261634912405665e-09,
+            3.02197692598193e-08,
+            0.9999999591061856
+          ],
+          "svm_linear": [
+            0.047809198045080464,
+            0.21469389795776034,
+            0.4308936487305298,
+            0.3066032552666297
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.45953369140625,
+          "sample_std": 98.46697059847023,
+          "log_variance": 5.0530135949332475,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.809927,
+      "feature_time": 0.655539,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 83.861572265625,
+      "std_intensity": 98.67608303511535,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_033.png",
+      "prediction": "striping",
+      "confidence": 0.6353899221833614,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.194091796875,
+        "sample_std": 98.51246202892301,
+        "log_variance": 2.1994323585514914,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.18779365079365082,
+          0.1881111111111111,
+          0.14505555555555558,
+          0.4790396825396825
+        ],
+        "extra": [
+          0.18,
+          0.174,
+          0.184,
+          0.462
+        ],
+        "gb": [
+          5.412441098158808e-09,
+          5.261664895184105e-09,
+          9.39470406202369e-09,
+          0.99999997993119
+        ],
+        "svm_linear": [
+          0.023259289025165185,
+          0.07322036388153373,
+          0.11225996397655114,
+          0.79126038311675
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.1994323585514914,
+        "intensity_variance_correlation": 0.1717160666188587,
+        "extreme_pixel_ratio": 0.194091796875,
+        "edge_density": 0.261962890625,
+        "ensemble_probabilities": {
+          "rf": [
+            0.18779365079365082,
+            0.1881111111111111,
+            0.14505555555555558,
+            0.4790396825396825
+          ],
+          "extra": [
+            0.18,
+            0.174,
+            0.184,
+            0.462
+          ],
+          "gb": [
+            5.412441098158808e-09,
+            5.261664895184105e-09,
+            9.39470406202369e-09,
+            0.99999997993119
+          ],
+          "svm_linear": [
+            0.023259289025165185,
+            0.07322036388153373,
+            0.11225996397655114,
+            0.79126038311675
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.194091796875,
+          "sample_std": 98.51246202892301,
+          "log_variance": 2.1994323585514914,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.452498,
+      "feature_time": 0.309771,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 133.08984375,
+      "std_intensity": 98.39387170270037,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_034.png",
+      "prediction": "striping",
+      "confidence": 0.9837080860926997,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.02423095703125,
+        "sample_std": 59.29959691734844,
+        "log_variance": 0.6319740000293605,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0016666666666666668,
+          0.008333333333333333,
+          0.0,
+          0.99
+        ],
+        "extra": [
+          0.022,
+          0.02,
+          0.0,
+          0.958
+        ],
+        "gb": [
+          3.87434528728043e-08,
+          5.252173809688e-09,
+          5.21739287503208e-09,
+          0.9999999507869806
+        ],
+        "svm_linear": [
+          1.84237259296786e-06,
+          0.0018984670939544057,
+          1.8706573905965438e-05,
+          0.9980809839595466
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.6319740000293605,
+        "intensity_variance_correlation": 0.23288427155669433,
+        "extreme_pixel_ratio": 0.02423095703125,
+        "edge_density": 0.171875,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0016666666666666668,
+            0.008333333333333333,
+            0.0,
+            0.99
+          ],
+          "extra": [
+            0.022,
+            0.02,
+            0.0,
+            0.958
+          ],
+          "gb": [
+            3.87434528728043e-08,
+            5.252173809688e-09,
+            5.21739287503208e-09,
+            0.9999999507869806
+          ],
+          "svm_linear": [
+            1.84237259296786e-06,
+            0.0018984670939544057,
+            1.8706573905965438e-05,
+            0.9980809839595466
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.02423095703125,
+          "sample_std": 59.29959691734844,
+          "log_variance": 0.6319740000293605,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.372344,
+      "feature_time": 0.223785,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 126.60614013671875,
+      "std_intensity": 58.520301581263254,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_035.png",
+      "prediction": "striping",
+      "confidence": 0.9843719745736647,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 35.71368330206225,
+        "log_variance": 0.4816330426928826,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.010555555555555556,
+          0.0033333333333333335,
+          0.0033333333333333335,
+          0.9827777777777778
+        ],
+        "extra": [
+          0.008,
+          0.016,
+          0.008,
+          0.968
+        ],
+        "gb": [
+          3.4473447122675855e-08,
+          5.1911875748971175e-09,
+          9.505359874635708e-07,
+          0.9999990097993778
+        ],
+        "svm_linear": [
+          5.526907145164516e-10,
+          1.9788630875186312e-10,
+          2.3344256567161836e-10,
+          0.9999999990159805
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.4816330426928826,
+        "intensity_variance_correlation": -0.8964389225763124,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.1171875,
+        "ensemble_probabilities": {
+          "rf": [
+            0.010555555555555556,
+            0.0033333333333333335,
+            0.0033333333333333335,
+            0.9827777777777778
+          ],
+          "extra": [
+            0.008,
+            0.016,
+            0.008,
+            0.968
+          ],
+          "gb": [
+            3.4473447122675855e-08,
+            5.1911875748971175e-09,
+            9.505359874635708e-07,
+            0.9999990097993778
+          ],
+          "svm_linear": [
+            5.526907145164516e-10,
+            1.9788630875186312e-10,
+            2.3344256567161836e-10,
+            0.9999999990159805
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 35.71368330206225,
+          "log_variance": 0.4816330426928826,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.376176,
+      "feature_time": 0.2204,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 63.5625,
+      "std_intensity": 35.54217345281518,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_036.png",
+      "prediction": "striping",
+      "confidence": 0.9652749843128368,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 40.30754664625472,
+        "log_variance": 0.13083039119008794,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0375,
+          0.0,
+          0.0,
+          0.9625
+        ],
+        "extra": [
+          0.068,
+          0.004,
+          0.0,
+          0.928
+        ],
+        "gb": [
+          5.199692951953239e-08,
+          5.25840261384578e-09,
+          5.487779473545572e-09,
+          0.9999999372568883
+        ],
+        "svm_linear": [
+          7.742374842245487e-12,
+          2.8179543669156196e-12,
+          3.2930173678804974e-12,
+          0.9999999999861466
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.13083039119008794,
+        "intensity_variance_correlation": -0.01848186577191349,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.2615966796875,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0375,
+            0.0,
+            0.0,
+            0.9625
+          ],
+          "extra": [
+            0.068,
+            0.004,
+            0.0,
+            0.928
+          ],
+          "gb": [
+            5.199692951953239e-08,
+            5.25840261384578e-09,
+            5.487779473545572e-09,
+            0.9999999372568883
+          ],
+          "svm_linear": [
+            7.742374842245487e-12,
+            2.8179543669156196e-12,
+            3.2930173678804974e-12,
+            0.9999999999861466
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 40.30754664625472,
+          "log_variance": 0.13083039119008794,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.395485,
+      "feature_time": 0.235084,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 127.1046142578125,
+      "std_intensity": 40.507739943252666,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_037.png",
+      "prediction": "salt_pepper",
+      "confidence": 0.4102615649238155,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.02276611328125,
+        "sample_std": 55.90440747382983,
+        "log_variance": 0.1746899340510144,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.21766666666666665,
+          0.4091111111111111,
+          0.034777777777777776,
+          0.33844444444444444
+        ],
+        "extra": [
+          0.132,
+          0.398,
+          0.024,
+          0.446
+        ],
+        "gb": [
+          0.24929239338480685,
+          0.24234777085346892,
+          0.25291922455972554,
+          0.2554406112019986
+        ],
+        "svm_linear": [
+          0.02349157102685881,
+          0.8708573332155938,
+          0.030469574389813826,
+          0.07518152136773368
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.1746899340510144,
+        "intensity_variance_correlation": 0.043228098352487594,
+        "extreme_pixel_ratio": 0.02276611328125,
+        "edge_density": 0.15472412109375,
+        "ensemble_probabilities": {
+          "rf": [
+            0.21766666666666665,
+            0.4091111111111111,
+            0.034777777777777776,
+            0.33844444444444444
+          ],
+          "extra": [
+            0.132,
+            0.398,
+            0.024,
+            0.446
+          ],
+          "gb": [
+            0.24929239338480685,
+            0.24234777085346892,
+            0.25291922455972554,
+            0.2554406112019986
+          ],
+          "svm_linear": [
+            0.02349157102685881,
+            0.8708573332155938,
+            0.030469574389813826,
+            0.07518152136773368
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.02276611328125,
+          "sample_std": 55.90440747382983,
+          "log_variance": 0.1746899340510144,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.382889,
+      "feature_time": 0.231013,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 152.6859130859375,
+      "std_intensity": 55.692683819789465,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_038.png",
+      "prediction": "striping",
+      "confidence": 0.6590993845955401,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 55.382319587030665,
+        "log_variance": 0.21292133768814794,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.13677777777777778,
+          0.19555555555555557,
+          0.029333333333333336,
+          0.6383333333333332
+        ],
+        "extra": [
+          0.132,
+          0.228,
+          0.026,
+          0.614
+        ],
+        "gb": [
+          8.044957202815439e-08,
+          5.261474683754935e-09,
+          5.490985505538331e-09,
+          0.9999999087979677
+        ],
+        "svm_linear": [
+          0.9754503868302425,
+          0.009465456797450126,
+          0.00025674907849236486,
+          0.014827407293814971
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.21292133768814794,
+        "intensity_variance_correlation": -0.2659618914139757,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.15478515625,
+        "ensemble_probabilities": {
+          "rf": [
+            0.13677777777777778,
+            0.19555555555555557,
+            0.029333333333333336,
+            0.6383333333333332
+          ],
+          "extra": [
+            0.132,
+            0.228,
+            0.026,
+            0.614
+          ],
+          "gb": [
+            8.044957202815439e-08,
+            5.261474683754935e-09,
+            5.490985505538331e-09,
+            0.9999999087979677
+          ],
+          "svm_linear": [
+            0.9754503868302425,
+            0.009465456797450126,
+            0.00025674907849236486,
+            0.014827407293814971
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 55.382319587030665,
+          "log_variance": 0.21292133768814794,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.387701,
+      "feature_time": 0.204139,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 154.1612548828125,
+      "std_intensity": 55.509451376997674,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_039.png",
+      "prediction": "striping",
+      "confidence": 0.9829968740468762,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0157470703125,
+        "sample_std": 57.88341297159317,
+        "log_variance": 0.4809624272420116,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0,
+          0.006666666666666667,
+          0.0033333333333333335,
+          0.99
+        ],
+        "extra": [
+          0.008,
+          0.016,
+          0.0,
+          0.976
+        ],
+        "gb": [
+          4.957786597994023e-08,
+          5.2324676670544206e-09,
+          5.21429341262207e-09,
+          0.999999939975373
+        ],
+        "svm_linear": [
+          0.007065406430764048,
+          0.0524925828788942,
+          0.0034731201600122913,
+          0.9369688905303293
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.4809624272420116,
+        "intensity_variance_correlation": 0.006731128194743693,
+        "extreme_pixel_ratio": 0.0157470703125,
+        "edge_density": 0.10723876953125,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0,
+            0.006666666666666667,
+            0.0033333333333333335,
+            0.99
+          ],
+          "extra": [
+            0.008,
+            0.016,
+            0.0,
+            0.976
+          ],
+          "gb": [
+            4.957786597994023e-08,
+            5.2324676670544206e-09,
+            5.21429341262207e-09,
+            0.999999939975373
+          ],
+          "svm_linear": [
+            0.007065406430764048,
+            0.0524925828788942,
+            0.0034731201600122913,
+            0.9369688905303293
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0157470703125,
+          "sample_std": 57.88341297159317,
+          "log_variance": 0.4809624272420116,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.501364,
+      "feature_time": 0.335354,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 129.57965087890625,
+      "std_intensity": 57.71728225897759,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "detector_test_images\\detector_striping\\detector_striping_test_040.png",
+      "prediction": "striping",
+      "confidence": 0.9676745490722161,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0,
+        "sample_std": 17.730805769620286,
+        "log_variance": 0.080473241169706,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.015,
+          0.012777777777777779,
+          0.009722222222222222,
+          0.9625
+        ],
+        "extra": [
+          0.016,
+          0.024,
+          0.024,
+          0.936
+        ],
+        "gb": [
+          4.0002435604534874e-07,
+          5.224576802568605e-09,
+          1.398460731169079e-06,
+          0.9999981962903359
+        ],
+        "svm_linear": [
+          2.060830970954473e-12,
+          7.275487722691885e-13,
+          8.905479866523467e-13,
+          0.9999999999963212
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.080473241169706,
+        "intensity_variance_correlation": -0.9866279517299047,
+        "extreme_pixel_ratio": 0.0,
+        "edge_density": 0.0,
+        "ensemble_probabilities": {
+          "rf": [
+            0.015,
+            0.012777777777777779,
+            0.009722222222222222,
+            0.9625
+          ],
+          "extra": [
+            0.016,
+            0.024,
+            0.024,
+            0.936
+          ],
+          "gb": [
+            4.0002435604534874e-07,
+            5.224576802568605e-09,
+            1.398460731169079e-06,
+            0.9999981962903359
+          ],
+          "svm_linear": [
+            2.060830970954473e-12,
+            7.275487722691885e-13,
+            8.905479866523467e-13,
+            0.9999999999963212
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0,
+          "sample_std": 17.730805769620286,
+          "log_variance": 0.080473241169706,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 0.380146,
+      "feature_time": 0.231653,
+      "image_shape": [
+        128,
+        128
+      ],
+      "mean_intensity": 63.609375,
+      "std_intensity": 17.592272084906345,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    }
+  ]
+}

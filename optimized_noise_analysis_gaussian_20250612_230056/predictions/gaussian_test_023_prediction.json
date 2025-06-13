@@ -1,0 +1,88 @@
+{
+  "image_name": "detector_test_images\\gaussian\\gaussian_test_023.png",
+  "prediction": "gaussian",
+  "confidence": 0.3632551948054078,
+  "stage1_decision": null,
+  "stage1_confidence": 0.0,
+  "stage1_info": {
+    "exact_extreme_ratio": 0.08343505859375,
+    "sample_std": 93.50225498008056,
+    "log_variance": 1.9348829265404366,
+    "decision": "full_analysis_required"
+  },
+  "ensemble_probabilities": {
+    "rf": [
+      0.44861904761904753,
+      0.22299999999999998,
+      0.1112777777777778,
+      0.2171031746031746
+    ],
+    "extra": [
+      0.34,
+      0.248,
+      0.26,
+      0.152
+    ],
+    "gb": [
+      0.022515265922306144,
+      0.010134376579513596,
+      0.009527972073039811,
+      0.9578223854251403
+    ],
+    "svm_linear": [
+      0.9860971165816454,
+      0.004673692118323821,
+      0.0012397127495402868,
+      0.007989478550490484
+    ]
+  },
+  "detailed_analysis": {
+    "log_variance": 1.9348829265404366,
+    "intensity_variance_correlation": -0.10972764525398689,
+    "extreme_pixel_ratio": 0.08343505859375,
+    "edge_density": 0.22845458984375,
+    "ensemble_probabilities": {
+      "rf": [
+        0.44861904761904753,
+        0.22299999999999998,
+        0.1112777777777778,
+        0.2171031746031746
+      ],
+      "extra": [
+        0.34,
+        0.248,
+        0.26,
+        0.152
+      ],
+      "gb": [
+        0.022515265922306144,
+        0.010134376579513596,
+        0.009527972073039811,
+        0.9578223854251403
+      ],
+      "svm_linear": [
+        0.9860971165816454,
+        0.004673692118323821,
+        0.0012397127495402868,
+        0.007989478550490484
+      ]
+    },
+    "stage1_info": {
+      "exact_extreme_ratio": 0.08343505859375,
+      "sample_std": 93.50225498008056,
+      "log_variance": 1.9348829265404366,
+      "decision": "full_analysis_required"
+    }
+  },
+  "processing_time": 0.62911,
+  "feature_time": 0.400463,
+  "image_shape": [
+    128,
+    128
+  ],
+  "mean_intensity": 130.56353759765625,
+  "std_intensity": 93.56493904472141,
+  "timestamp": "2025-06-13T02:02:17Z",
+  "system_version": "optimized_ultra_final_v2.0_fast",
+  "user": "vkhare2909"
+}
