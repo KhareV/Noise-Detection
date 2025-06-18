@@ -1,0 +1,1823 @@
+{
+  "folder_info": {
+    "name": "speckle_noise",
+    "timestamp": "2025-06-13T02:06:01Z",
+    "user": "vkhare2909",
+    "total_images": 20,
+    "system_version": "optimized_ultra_final_v2.0_fast",
+    "optimization_level": "enhanced_stage1_improved_accuracy_fast_training"
+  },
+  "noise_distribution": {
+    "gaussian": 0,
+    "salt_pepper": 0,
+    "speckle": 20,
+    "striping": 0
+  },
+  "optimization_analysis": {
+    "stage1_decisions": 0,
+    "full_analysis_required": 20,
+    "stage1_efficiency": 0.0,
+    "enhanced_speckle_detections": 0,
+    "balanced_salt_pepper_detections": 0,
+    "critical_fixes_applied": {
+      "salt_pepper_threshold_increase": "0.18 → 0.20",
+      "isolation_ratio_increase": "0.30 → 0.40",
+      "balance_ratio_check_added": ">0.25",
+      "stage1_confidence_lowered": "0.92 → 0.88",
+      "training_time_reduction": "60%"
+    }
+  },
+  "enhanced_confidence_stats": {
+    "mean": 0.7191578714616179,
+    "std": 0.01690589869098319,
+    "min": 0.6887071247603411,
+    "max": 0.7539012661397705,
+    "median": 0.7148291085280593,
+    "q25": 0.7109892834811034,
+    "q75": 0.7201272413129999,
+    "very_high_confidence_count": 0,
+    "high_confidence_count": 0,
+    "medium_confidence_count": 18,
+    "low_confidence_count": 2
+  },
+  "enhanced_performance_stats": {
+    "mean_time": 5.224402249999999,
+    "median_time": 5.278483,
+    "total_time": 104.48804499999999,
+    "min_time": 4.0667,
+    "max_time": 6.532653,
+    "std_time": 0.5707838194705483,
+    "stage1_avg_time": 0,
+    "full_analysis_avg_time": 5.224402249999999
+  },
+  "quality_metrics": {
+    "images_processed": 20,
+    "avg_image_quality": 83.62419150646022,
+    "feature_extraction_efficiency": 4.94568915,
+    "system_reliability": "MEDIUM",
+    "training_efficiency": "FAST (60% reduction)",
+    "expected_accuracy_improvement": "Speckle: 77.5% → 85-90%, Overall: 85.8% → 90-93%"
+  },
+  "individual_results": [
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_108070_36387.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7175406989606838,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.1248955641479006,
+        "sample_std": 82.49699215825993,
+        "log_variance": 2.4860964887806607,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.055555555555555546,
+          0.050277777777777775,
+          0.8777222222222224,
+          0.016444444444444446
+        ],
+        "extra": [
+          0.088,
+          0.104,
+          0.772,
+          0.036
+        ],
+        "gb": [
+          0.28504831272101216,
+          1.6202277795865028e-08,
+          0.714951664731619,
+          6.345090970853014e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.4860964887806607,
+        "intensity_variance_correlation": 0.1605967316502891,
+        "extreme_pixel_ratio": 0.1248955641479006,
+        "edge_density": 0.3678279285755921,
+        "ensemble_probabilities": {
+          "rf": [
+            0.055555555555555546,
+            0.050277777777777775,
+            0.8777222222222224,
+            0.016444444444444446
+          ],
+          "extra": [
+            0.088,
+            0.104,
+            0.772,
+            0.036
+          ],
+          "gb": [
+            0.28504831272101216,
+            1.6202277795865028e-08,
+            0.714951664731619,
+            6.345090970853014e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.1248955641479006,
+          "sample_std": 82.49699215825993,
+          "log_variance": 2.4860964887806607,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 5.5331,
+      "feature_time": 5.152037,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 121.77492373754056,
+      "std_intensity": 83.25631137819364,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_12084_36462.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7142301869486782,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.1337750403170964,
+        "sample_std": 84.17746482188686,
+        "log_variance": 2.4706596180697837,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.04583333333333333,
+          0.06194444444444444,
+          0.8785555555555558,
+          0.013666666666666666
+        ],
+        "extra": [
+          0.084,
+          0.112,
+          0.76,
+          0.044
+        ],
+        "gb": [
+          0.2850570230843925,
+          2.0553927593123598e-08,
+          0.7149429500169295,
+          6.3447503648784155e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.4706596180697837,
+        "intensity_variance_correlation": 0.1283133606538105,
+        "extreme_pixel_ratio": 0.1337750403170964,
+        "edge_density": 0.36879294823220055,
+        "ensemble_probabilities": {
+          "rf": [
+            0.04583333333333333,
+            0.06194444444444444,
+            0.8785555555555558,
+            0.013666666666666666
+          ],
+          "extra": [
+            0.084,
+            0.112,
+            0.76,
+            0.044
+          ],
+          "gb": [
+            0.2850570230843925,
+            2.0553927593123598e-08,
+            0.7149429500169295,
+            6.3447503648784155e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.1337750403170964,
+          "sample_std": 84.17746482188686,
+          "log_variance": 2.4706596180697837,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 6.532653,
+      "feature_time": 6.219403,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 124.590844618882,
+      "std_intensity": 83.71645525614791,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_148089_36290.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7473862874303853,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.12269998251306663,
+        "sample_std": 81.97418295414721,
+        "log_variance": 2.6408482056241063,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.03666666666666667,
+          0.04277777777777778,
+          0.9041111111111112,
+          0.016444444444444446
+        ],
+        "extra": [
+          0.116,
+          0.08,
+          0.768,
+          0.036
+        ],
+        "gb": [
+          0.1978104070217365,
+          1.4412778015039537e-08,
+          0.8021895741659802,
+          4.399505159739468e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.6408482056241063,
+        "intensity_variance_correlation": 0.5960512757443636,
+        "extreme_pixel_ratio": 0.12269998251306663,
+        "edge_density": 0.37008179998834206,
+        "ensemble_probabilities": {
+          "rf": [
+            0.03666666666666667,
+            0.04277777777777778,
+            0.9041111111111112,
+            0.016444444444444446
+          ],
+          "extra": [
+            0.116,
+            0.08,
+            0.768,
+            0.036
+          ],
+          "gb": [
+            0.1978104070217365,
+            1.4412778015039537e-08,
+            0.8021895741659802,
+            4.399505159739468e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.12269998251306663,
+          "sample_std": 81.97418295414721,
+          "log_variance": 2.6408482056241063,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 5.011983,
+      "feature_time": 4.781843,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 118.72623234305478,
+      "std_intensity": 82.90331471781901,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_156065_36423.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7471235877110793,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.12452639555443294,
+        "sample_std": 82.54182909894837,
+        "log_variance": 2.5209366870088052,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.04833333333333333,
+          0.05111111111111111,
+          0.8824444444444445,
+          0.018111111111111113
+        ],
+        "extra": [
+          0.092,
+          0.084,
+          0.792,
+          0.032
+        ],
+        "gb": [
+          0.19732786900290764,
+          1.4377445888708086e-08,
+          0.80267210862209,
+          7.997556340622758e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.5209366870088052,
+        "intensity_variance_correlation": 0.745293882496068,
+        "extreme_pixel_ratio": 0.12452639555443294,
+        "edge_density": 0.3709561466570812,
+        "ensemble_probabilities": {
+          "rf": [
+            0.04833333333333333,
+            0.05111111111111111,
+            0.8824444444444445,
+            0.018111111111111113
+          ],
+          "extra": [
+            0.092,
+            0.084,
+            0.792,
+            0.032
+          ],
+          "gb": [
+            0.19732786900290764,
+            1.4377445888708086e-08,
+            0.80267210862209,
+            7.997556340622758e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.12452639555443294,
+          "sample_std": 82.54182909894837,
+          "log_variance": 2.5209366870088052,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 5.25704,
+      "feature_time": 4.956846,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 119.33635792514298,
+      "std_intensity": 83.06073151516406,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_157055_36375.jpg",
+      "prediction": "speckle",
+      "confidence": 0.6917840631522064,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.13885920427976503,
+        "sample_std": 84.32150507575159,
+        "log_variance": 2.432363323229792,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0525,
+          0.06527777777777777,
+          0.871888888888889,
+          0.010333333333333333
+        ],
+        "extra": [
+          0.088,
+          0.112,
+          0.756,
+          0.044
+        ],
+        "gb": [
+          0.3607081829392266,
+          2.3222867171556193e-08,
+          0.6392917881643759,
+          5.673530340496062e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.432363323229792,
+        "intensity_variance_correlation": 0.034393662243932734,
+        "extreme_pixel_ratio": 0.13885920427976503,
+        "edge_density": 0.36812585410716253,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0525,
+            0.06527777777777777,
+            0.871888888888889,
+            0.010333333333333333
+          ],
+          "extra": [
+            0.088,
+            0.112,
+            0.756,
+            0.044
+          ],
+          "gb": [
+            0.3607081829392266,
+            2.3222867171556193e-08,
+            0.6392917881643759,
+            5.673530340496062e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.13885920427976503,
+          "sample_std": 84.32150507575159,
+          "log_variance": 2.432363323229792,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 6.076776,
+      "feature_time": 5.734608,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 127.2841173308463,
+      "std_intensity": 84.1078303473409,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_163085_36342.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7151363592949782,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.12692922973296805,
+        "sample_std": 83.26781672435035,
+        "log_variance": 2.723746404585542,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.05416666666666667,
+          0.04527777777777777,
+          0.8879999999999999,
+          0.012555555555555556
+        ],
+        "extra": [
+          0.124,
+          0.084,
+          0.752,
+          0.04
+        ],
+        "gb": [
+          0.28505456014152203,
+          1.6333540133486657e-08,
+          0.7149454171799079,
+          6.3450298810606315e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.723746404585542,
+        "intensity_variance_correlation": 0.3324851206957109,
+        "extreme_pixel_ratio": 0.12692922973296805,
+        "edge_density": 0.3693305095174254,
+        "ensemble_probabilities": {
+          "rf": [
+            0.05416666666666667,
+            0.04527777777777777,
+            0.8879999999999999,
+            0.012555555555555556
+          ],
+          "extra": [
+            0.124,
+            0.084,
+            0.752,
+            0.04
+          ],
+          "gb": [
+            0.28505456014152203,
+            1.6333540133486657e-08,
+            0.7149454171799079,
+            6.3450298810606315e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.12692922973296805,
+          "sample_std": 83.26781672435035,
+          "log_variance": 2.723746404585542,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 5.299926,
+      "feature_time": 5.001998,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 120.92252640850772,
+      "std_intensity": 83.62938779997073,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_170057_36354.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7118642821955163,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.13503150886328458,
+        "sample_std": 83.9719884952119,
+        "log_variance": 2.4748610596810616,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0525,
+          0.06194444444444444,
+          0.8752222222222223,
+          0.010333333333333333
+        ],
+        "extra": [
+          0.088,
+          0.112,
+          0.756,
+          0.044
+        ],
+        "gb": [
+          0.2850539698549103,
+          2.612945874398503e-08,
+          0.7149459976709486,
+          6.34468245512891e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.4748610596810616,
+        "intensity_variance_correlation": 0.09695739486950773,
+        "extreme_pixel_ratio": 0.13503150886328458,
+        "edge_density": 0.36765953588383493,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0525,
+            0.06194444444444444,
+            0.8752222222222223,
+            0.010333333333333333
+          ],
+          "extra": [
+            0.088,
+            0.112,
+            0.756,
+            0.044
+          ],
+          "gb": [
+            0.2850539698549103,
+            2.612945874398503e-08,
+            0.7149459976709486,
+            6.34468245512891e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.13503150886328458,
+          "sample_std": 83.9719884952119,
+          "log_variance": 2.4748610596810616,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 5.42622,
+      "feature_time": 5.168761,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 125.93272064300102,
+      "std_intensity": 84.08298258769416,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_175032_36278.jpg",
+      "prediction": "speckle",
+      "confidence": 0.720455950636475,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.13289421700636653,
+        "sample_std": 83.71395898988412,
+        "log_variance": 2.564189403659047,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.04888888888888889,
+          0.05194444444444444,
+          0.8860555555555557,
+          0.013111111111111112
+        ],
+        "extra": [
+          0.088,
+          0.1,
+          0.772,
+          0.04
+        ],
+        "gb": [
+          0.28505397268460103,
+          1.6202599510810515e-08,
+          0.714946004768117,
+          6.344682518111681e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.564189403659047,
+        "intensity_variance_correlation": 0.18650568985983185,
+        "extreme_pixel_ratio": 0.13289421700636653,
+        "edge_density": 0.3684432095647049,
+        "ensemble_probabilities": {
+          "rf": [
+            0.04888888888888889,
+            0.05194444444444444,
+            0.8860555555555557,
+            0.013111111111111112
+          ],
+          "extra": [
+            0.088,
+            0.1,
+            0.772,
+            0.04
+          ],
+          "gb": [
+            0.28505397268460103,
+            1.6202599510810515e-08,
+            0.714946004768117,
+            6.344682518111681e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.13289421700636653,
+          "sample_std": 83.71395898988412,
+          "log_variance": 2.564189403659047,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 5.578236,
+      "feature_time": 5.258022,
+      "image_shape": [
+        481,
+        321
+      ],
+      "mean_intensity": 123.34398740940797,
+      "std_intensity": 83.7487841641644,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_175043_36449.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7130976155288496,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.13576984605021988,
+        "sample_std": 84.10728477343685,
+        "log_variance": 2.4644958478002,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0525,
+          0.06194444444444444,
+          0.871888888888889,
+          0.013666666666666666
+        ],
+        "extra": [
+          0.08,
+          0.112,
+          0.764,
+          0.044
+        ],
+        "gb": [
+          0.2850539698549103,
+          2.612945874398503e-08,
+          0.7149459976709486,
+          6.34468245512891e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.4644958478002,
+        "intensity_variance_correlation": 0.08991674069282506,
+        "extreme_pixel_ratio": 0.13576984605021988,
+        "edge_density": 0.3698421642346876,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0525,
+            0.06194444444444444,
+            0.871888888888889,
+            0.013666666666666666
+          ],
+          "extra": [
+            0.08,
+            0.112,
+            0.764,
+            0.044
+          ],
+          "gb": [
+            0.2850539698549103,
+            2.612945874398503e-08,
+            0.7149459976709486,
+            6.34468245512891e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.13576984605021988,
+          "sample_std": 84.10728477343685,
+          "log_variance": 2.4644958478002,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 5.086145,
+      "feature_time": 4.827943,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 125.67384278599232,
+      "std_intensity": 83.82860153507623,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_285079_36302.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7145218577611403,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.1300509711724665,
+        "sample_std": 84.1404235385109,
+        "log_variance": 2.45455117008157,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.04555555555555556,
+          0.06027777777777777,
+          0.8793888888888891,
+          0.014777777777777779
+        ],
+        "extra": [
+          0.08,
+          0.12,
+          0.76,
+          0.04
+        ],
+        "gb": [
+          0.2850570065009525,
+          2.0553928069874263e-08,
+          0.7149429666001117,
+          6.345007701789832e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.45455117008157,
+        "intensity_variance_correlation": 0.18837304774822225,
+        "extreme_pixel_ratio": 0.1300509711724665,
+        "edge_density": 0.3702566693220899,
+        "ensemble_probabilities": {
+          "rf": [
+            0.04555555555555556,
+            0.06027777777777777,
+            0.8793888888888891,
+            0.014777777777777779
+          ],
+          "extra": [
+            0.08,
+            0.12,
+            0.76,
+            0.04
+          ],
+          "gb": [
+            0.2850570065009525,
+            2.0553928069874263e-08,
+            0.7149429666001117,
+            6.345007701789832e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.1300509711724665,
+          "sample_std": 84.1404235385109,
+          "log_variance": 2.45455117008157,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 5.169753,
+      "feature_time": 4.875157,
+      "image_shape": [
+        481,
+        321
+      ],
+      "mean_intensity": 124.08089973510535,
+      "std_intensity": 83.38274265886018,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_291000_36434.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7106970912673999,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.13891749405768097,
+        "sample_std": 84.36164057200405,
+        "log_variance": 2.471085213679095,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0525,
+          0.06527777777777777,
+          0.871888888888889,
+          0.010333333333333333
+        ],
+        "extra": [
+          0.088,
+          0.112,
+          0.756,
+          0.044
+        ],
+        "gb": [
+          0.2850560669005265,
+          2.6129659889420137e-08,
+          0.7149439006251499,
+          6.344663845206299e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.471085213679095,
+        "intensity_variance_correlation": 0.025391339931673484,
+        "extreme_pixel_ratio": 0.13891749405768097,
+        "edge_density": 0.3684561628486862,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0525,
+            0.06527777777777777,
+            0.871888888888889,
+            0.010333333333333333
+          ],
+          "extra": [
+            0.088,
+            0.112,
+            0.756,
+            0.044
+          ],
+          "gb": [
+            0.2850560669005265,
+            2.6129659889420137e-08,
+            0.7149439006251499,
+            6.344663845206299e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.13891749405768097,
+          "sample_std": 84.36164057200405,
+          "log_variance": 2.471085213679095,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 5.424117,
+      "feature_time": 5.158872,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 127.18791976735902,
+      "std_intensity": 84.34252283595828,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_296059_36315.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7106976206711981,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.13445508772611575,
+        "sample_std": 84.1130281999168,
+        "log_variance": 2.4705102452585535,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.051388888888888894,
+          0.06194444444444444,
+          0.871888888888889,
+          0.014777777777777779
+        ],
+        "extra": [
+          0.088,
+          0.112,
+          0.756,
+          0.044
+        ],
+        "gb": [
+          0.2850539548609503,
+          2.0553766732398474e-08,
+          0.7149460182403431,
+          6.344939824661852e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.4705102452585535,
+        "intensity_variance_correlation": 0.144417048327949,
+        "extreme_pixel_ratio": 0.13445508772611575,
+        "edge_density": 0.3692139299615935,
+        "ensemble_probabilities": {
+          "rf": [
+            0.051388888888888894,
+            0.06194444444444444,
+            0.871888888888889,
+            0.014777777777777779
+          ],
+          "extra": [
+            0.088,
+            0.112,
+            0.756,
+            0.044
+          ],
+          "gb": [
+            0.2850539548609503,
+            2.0553766732398474e-08,
+            0.7149460182403431,
+            6.344939824661852e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.13445508772611575,
+          "sample_std": 84.1130281999168,
+          "log_variance": 2.4705102452585535,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 5.339808,
+      "feature_time": 5.055652,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 124.69325328203833,
+      "std_intensity": 83.75982334137504,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_376043_36267.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7106976155287998,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.13829573642657755,
+        "sample_std": 84.31289912320653,
+        "log_variance": 2.4686685093547025,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0525,
+          0.06194444444444444,
+          0.871888888888889,
+          0.013666666666666666
+        ],
+        "extra": [
+          0.088,
+          0.112,
+          0.756,
+          0.044
+        ],
+        "gb": [
+          0.2850539698548311,
+          2.6129736531920698e-08,
+          0.71494599767075,
+          6.344682455127147e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.4686685093547025,
+        "intensity_variance_correlation": 0.06266086913054283,
+        "extreme_pixel_ratio": 0.13829573642657755,
+        "edge_density": 0.3691167803317336,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0525,
+            0.06194444444444444,
+            0.871888888888889,
+            0.013666666666666666
+          ],
+          "extra": [
+            0.088,
+            0.112,
+            0.756,
+            0.044
+          ],
+          "gb": [
+            0.2850539698548311,
+            2.6129736531920698e-08,
+            0.71494599767075,
+            6.344682455127147e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.13829573642657755,
+          "sample_std": 84.31289912320653,
+          "log_variance": 2.4686685093547025,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 5.563166,
+      "feature_time": 5.26008,
+      "image_shape": [
+        481,
+        321
+      ],
+      "mean_intensity": 126.47277543539226,
+      "std_intensity": 84.01727674032163,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_42049_36240.jpg",
+      "prediction": "speckle",
+      "confidence": 0.6887071247603411,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.14310140478364777,
+        "sample_std": 84.5005050834609,
+        "log_variance": 2.447681719968821,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.05,
+          0.07361111111111111,
+          0.8660555555555557,
+          0.010333333333333333
+        ],
+        "extra": [
+          0.088,
+          0.116,
+          0.752,
+          0.044
+        ],
+        "gb": [
+          0.3600491231377316,
+          1.0977180862294217e-08,
+          0.6399507012635811,
+          1.6462150652061902e-07
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.447681719968821,
+        "intensity_variance_correlation": 0.18271249193203207,
+        "extreme_pixel_ratio": 0.14310140478364777,
+        "edge_density": 0.3695895751970518,
+        "ensemble_probabilities": {
+          "rf": [
+            0.05,
+            0.07361111111111111,
+            0.8660555555555557,
+            0.010333333333333333
+          ],
+          "extra": [
+            0.088,
+            0.116,
+            0.752,
+            0.044
+          ],
+          "gb": [
+            0.3600491231377316,
+            1.0977180862294217e-08,
+            0.6399507012635811,
+            1.6462150652061902e-07
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.14310140478364777,
+          "sample_std": 84.5005050834609,
+          "log_variance": 2.447681719968821,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 5.689954,
+      "feature_time": 5.408662,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 127.44704373676336,
+      "std_intensity": 84.08045623099885,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_43074_36225.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7476457109108169,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.12097071910156022,
+        "sample_std": 82.86519616823459,
+        "log_variance": 2.5472682568866305,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.04083333333333333,
+          0.048611111111111105,
+          0.9013333333333332,
+          0.009222222222222222
+        ],
+        "extra": [
+          0.1,
+          0.092,
+          0.772,
+          0.036
+        ],
+        "gb": [
+          0.19768382585550662,
+          1.2771262072980547e-08,
+          0.8023161569765961,
+          4.396635247056595e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.5472682568866305,
+        "intensity_variance_correlation": 0.3892891962027567,
+        "extreme_pixel_ratio": 0.12097071910156022,
+        "edge_density": 0.3708136605332867,
+        "ensemble_probabilities": {
+          "rf": [
+            0.04083333333333333,
+            0.048611111111111105,
+            0.9013333333333332,
+            0.009222222222222222
+          ],
+          "extra": [
+            0.1,
+            0.092,
+            0.772,
+            0.036
+          ],
+          "gb": [
+            0.19768382585550662,
+            1.2771262072980547e-08,
+            0.8023161569765961,
+            4.396635247056595e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.12097071910156022,
+          "sample_std": 82.86519616823459,
+          "log_variance": 2.5472682568866305,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 4.527399,
+      "feature_time": 4.304988,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 120.89823900104274,
+      "std_intensity": 83.14264376745729,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_62096_36329.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7169218540048883,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.1331662359699743,
+        "sample_std": 83.48054523156877,
+        "log_variance": 2.468276098569217,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.05,
+          0.06027777777777777,
+          0.8793888888888891,
+          0.010333333333333333
+        ],
+        "extra": [
+          0.084,
+          0.108,
+          0.768,
+          0.04
+        ],
+        "gb": [
+          0.28505702152621865,
+          2.0553927637919607e-08,
+          0.7149429515751033,
+          6.344750378706405e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.468276098569217,
+        "intensity_variance_correlation": 0.22508574100508943,
+        "extreme_pixel_ratio": 0.1331662359699743,
+        "edge_density": 0.37156495100420334,
+        "ensemble_probabilities": {
+          "rf": [
+            0.05,
+            0.06027777777777777,
+            0.8793888888888891,
+            0.010333333333333333
+          ],
+          "extra": [
+            0.084,
+            0.108,
+            0.768,
+            0.04
+          ],
+          "gb": [
+            0.28505702152621865,
+            2.0553927637919607e-08,
+            0.7149429515751033,
+            6.344750378706405e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.1331662359699743,
+          "sample_std": 83.48054523156877,
+          "log_variance": 2.468276098569217,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 5.037183,
+      "feature_time": 4.814893,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 125.00893128930512,
+      "std_intensity": 83.65391265817958,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_66053_36410.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7539012661397705,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.12199402853608461,
+        "sample_std": 82.03942402430675,
+        "log_variance": 2.5615480561473003,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.035833333333333335,
+          0.03361111111111111,
+          0.9157777777777778,
+          0.014777777777777779
+        ],
+        "extra": [
+          0.096,
+          0.092,
+          0.776,
+          0.036
+        ],
+        "gb": [
+          0.19768382553361874,
+          1.439955854640681e-08,
+          0.8023161556701875,
+          4.3966352398975695e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.5615480561473003,
+        "intensity_variance_correlation": 0.4975169695345392,
+        "extreme_pixel_ratio": 0.12199402853608461,
+        "edge_density": 0.36887066793608847,
+        "ensemble_probabilities": {
+          "rf": [
+            0.035833333333333335,
+            0.03361111111111111,
+            0.9157777777777778,
+            0.014777777777777779
+          ],
+          "extra": [
+            0.096,
+            0.092,
+            0.776,
+            0.036
+          ],
+          "gb": [
+            0.19768382553361874,
+            1.439955854640681e-08,
+            0.8023161556701875,
+            4.3966352398975695e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.12199402853608461,
+          "sample_std": 82.03942402430675,
+          "log_variance": 2.5615480561473003,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 4.149138,
+      "feature_time": 3.936472,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 119.56381111521299,
+      "std_intensity": 82.92586359314726,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_69020_36365.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7110865044177384,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.13494731251740597,
+        "sample_std": 83.71640500260388,
+        "log_variance": 2.476656222590217,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.053611111111111116,
+          0.05861111111111111,
+          0.8729999999999999,
+          0.014777777777777779
+        ],
+        "extra": [
+          0.096,
+          0.104,
+          0.756,
+          0.044
+        ],
+        "gb": [
+          0.2850539698549103,
+          2.612945874398503e-08,
+          0.7149459976709486,
+          6.34468245512891e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.476656222590217,
+        "intensity_variance_correlation": 0.3356280301295873,
+        "extreme_pixel_ratio": 0.13494731251740597,
+        "edge_density": 0.3691880233936309,
+        "ensemble_probabilities": {
+          "rf": [
+            0.053611111111111116,
+            0.05861111111111111,
+            0.8729999999999999,
+            0.014777777777777779
+          ],
+          "extra": [
+            0.096,
+            0.104,
+            0.756,
+            0.044
+          ],
+          "gb": [
+            0.2850539698549103,
+            2.612945874398503e-08,
+            0.7149459976709486,
+            6.34468245512891e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.13494731251740597,
+          "sample_std": 83.71640500260388,
+          "log_variance": 2.476656222590217,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 5.051831,
+      "feature_time": 4.783912,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 124.76459997020744,
+      "std_intensity": 84.00842368998526,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_69040_36253.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7196440803729061,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.1317284214480476,
+        "sample_std": 83.75796843286017,
+        "log_variance": 2.5074237253854808,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.046666666666666676,
+          0.05361111111111111,
+          0.8871666666666665,
+          0.012555555555555558
+        ],
+        "extra": [
+          0.084,
+          0.108,
+          0.768,
+          0.04
+        ],
+        "gb": [
+          0.2850570049427787,
+          2.0553928114670272e-08,
+          0.7149429681582855,
+          6.345007715618382e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.5074237253854808,
+        "intensity_variance_correlation": 0.2398769411747451,
+        "extreme_pixel_ratio": 0.1317284214480476,
+        "edge_density": 0.36979682774075295,
+        "ensemble_probabilities": {
+          "rf": [
+            0.046666666666666676,
+            0.05361111111111111,
+            0.8871666666666665,
+            0.012555555555555558
+          ],
+          "extra": [
+            0.084,
+            0.108,
+            0.768,
+            0.04
+          ],
+          "gb": [
+            0.2850570049427787,
+            2.0553928114670272e-08,
+            0.7149429681582855,
+            6.345007715618382e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.1317284214480476,
+          "sample_std": 83.75796843286017,
+          "log_variance": 2.5074237253854808,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 4.666917,
+      "feature_time": 4.403023,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 122.78421124215517,
+      "std_intensity": 83.5565530406815,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_speckle\\speckle_noise\\speckle_86000_36398.jpg",
+      "prediction": "speckle",
+      "confidence": 0.7200176715385082,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.13139811270652393,
+        "sample_std": 83.62537545769227,
+        "log_variance": 2.4524892961862763,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.04555555555555556,
+          0.05527777777777777,
+          0.8843888888888891,
+          0.014777777777777779
+        ],
+        "extra": [
+          0.084,
+          0.108,
+          0.772,
+          0.036
+        ],
+        "gb": [
+          0.28447375144671744,
+          2.0511931264305034e-08,
+          0.7155262217095827,
+          6.331768568364455e-09
+        ],
+        "svm_linear": [
+          0.9999998499999627,
+          5.0000012473676575e-08,
+          5.00000124736777e-08,
+          5.000001247367883e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 2.4524892961862763,
+        "intensity_variance_correlation": 0.2058385227764893,
+        "extreme_pixel_ratio": 0.13139811270652393,
+        "edge_density": 0.3695766219130705,
+        "ensemble_probabilities": {
+          "rf": [
+            0.04555555555555556,
+            0.05527777777777777,
+            0.8843888888888891,
+            0.014777777777777779
+          ],
+          "extra": [
+            0.084,
+            0.108,
+            0.772,
+            0.036
+          ],
+          "gb": [
+            0.28447375144671744,
+            2.0511931264305034e-08,
+            0.7155262217095827,
+            6.331768568364455e-09
+          ],
+          "svm_linear": [
+            0.9999998499999627,
+            5.0000012473676575e-08,
+            5.00000124736777e-08,
+            5.000001247367883e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.13139811270652393,
+          "sample_std": 83.62537545769227,
+          "log_variance": 2.4524892961862763,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 4.0667,
+      "feature_time": 3.810611,
+      "image_shape": [
+        481,
+        321
+      ],
+      "mean_intensity": 123.55336429168204,
+      "std_intensity": 83.27921227066857,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+OPTIMIZED ULTRA-FINAL NOISE DETECTION REPORT (Fast Training)
+==========================================================
+Image: speckle_175032_36278.jpg
+Date: 2025-06-13 02:02:17 UTC
+User: vkhare2909
+System: Optimized Ultra-Final v2.0 (Fast Training Edition)
+Enhancement: Enhanced Stage 1 + Improved Accuracy + Fast Training
+
+FINAL RESULT: SPECKLE
+   Confidence: 72.0%
+   Processing Time: 5.578s
+
+ENHANCED STAGE 1 ANALYSIS:
+   Decision: FULL ANALYSIS REQUIRED
+   Reason: Stage 1 confidence below threshold (0.88)
+
+CRITICAL FIXES APPLIED:
+   • Salt & pepper threshold: 0.18 → 0.20 (more conservative)
+   • Isolation ratio threshold: 0.30 → 0.40 (stricter)
+   • Added balance ratio check for salt & pepper (>0.25)
+   • Stage 1 confidence threshold: 0.92 → 0.88 (better accuracy)
+   • Fast training mode: 60% reduction in training time
+
+ENHANCED DETAILED ANALYSIS:
+   log_variance: 2.5642
+   intensity_variance_correlation: 0.1865
+   extreme_pixel_ratio: 0.1329
+   edge_density: 0.3684
+
+ENSEMBLE PROBABILITIES:
+   gaussian: 0.355
+   salt_pepper: 0.038
+   speckle: 0.593
+   striping: 0.013
+
+NOISE TYPE CHARACTERISTICS:
+   Multiplicative noise with intensity-dependent variance, granular texture
+
+IMAGE STATISTICS:
+   Shape: 481 × 321
+   Mean Intensity: 123.34
+   Std Intensity: 83.75
+   Feature Extraction Time: 5.258s
+
+OPTIMIZED SYSTEM INFORMATION:
+   Version: optimized_ultra_final_v2.0_fast
+   Features: 107 optimized with enhanced discrimination
+   Classifiers: RF (35%), Extra Trees (30%), GB (25%), Linear SVM (10%)
+   Training: Fast optimized training (~2160 images, 2-3 min)
+   Stage 1 Threshold: 0.88 (optimized from 0.92)
+   Enhanced Features: Balanced salt & pepper detection, improved speckle analysis
+   Performance: 60% faster training, maintained accuracy
