@@ -1,0 +1,1823 @@
+{
+  "folder_info": {
+    "name": "salt_pepper_noise",
+    "timestamp": "2025-06-13T02:06:01Z",
+    "user": "vkhare2909",
+    "total_images": 20,
+    "system_version": "optimized_ultra_final_v2.0_fast",
+    "optimization_level": "enhanced_stage1_improved_accuracy_fast_training"
+  },
+  "noise_distribution": {
+    "gaussian": 0,
+    "salt_pepper": 18,
+    "speckle": 2,
+    "striping": 0
+  },
+  "optimization_analysis": {
+    "stage1_decisions": 0,
+    "full_analysis_required": 20,
+    "stage1_efficiency": 0.0,
+    "enhanced_speckle_detections": 0,
+    "balanced_salt_pepper_detections": 0,
+    "critical_fixes_applied": {
+      "salt_pepper_threshold_increase": "0.18 → 0.20",
+      "isolation_ratio_increase": "0.30 → 0.40",
+      "balance_ratio_check_added": ">0.25",
+      "stage1_confidence_lowered": "0.92 → 0.88",
+      "training_time_reduction": "60%"
+    }
+  },
+  "enhanced_confidence_stats": {
+    "mean": 0.5835054944076008,
+    "std": 0.0744596713139065,
+    "min": 0.4589440598055882,
+    "max": 0.7126215725859998,
+    "median": 0.5842864544208791,
+    "q25": 0.5464614041799138,
+    "q75": 0.6339602365188919,
+    "very_high_confidence_count": 0,
+    "high_confidence_count": 0,
+    "medium_confidence_count": 1,
+    "low_confidence_count": 19
+  },
+  "enhanced_performance_stats": {
+    "mean_time": 4.422904299999999,
+    "median_time": 3.3740075000000003,
+    "total_time": 88.45808599999998,
+    "min_time": 2.673829,
+    "max_time": 21.703767,
+    "std_time": 3.9964101175607474,
+    "stage1_avg_time": 0,
+    "full_analysis_avg_time": 4.422904299999999
+  },
+  "quality_metrics": {
+    "images_processed": 20,
+    "avg_image_quality": 64.37491264601394,
+    "feature_extraction_efficiency": 4.04981375,
+    "system_reliability": "LOW",
+    "training_efficiency": "FAST (60% reduction)",
+    "expected_accuracy_improvement": "Speckle: 77.5% → 85-90%, Overall: 85.8% → 90-93%"
+  },
+  "individual_results": [
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_101087_18288.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.4589440598055882,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.1985608901496752,
+        "sample_std": 76.72398675772786,
+        "log_variance": 0.8345557049727962,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0575,
+          0.30611111111111117,
+          0.5930555555555557,
+          0.04333333333333333
+        ],
+        "extra": [
+          0.134,
+          0.374,
+          0.414,
+          0.078
+        ],
+        "gb": [
+          8.7875697954666e-09,
+          0.9584206836667855,
+          0.041579293223032096,
+          1.432261246162689e-08
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.8345557049727962,
+        "intensity_variance_correlation": 0.36324720112938697,
+        "extreme_pixel_ratio": 0.1985608901496752,
+        "edge_density": 0.27890363404382096,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0575,
+            0.30611111111111117,
+            0.5930555555555557,
+            0.04333333333333333
+          ],
+          "extra": [
+            0.134,
+            0.374,
+            0.414,
+            0.078
+          ],
+          "gb": [
+            8.7875697954666e-09,
+            0.9584206836667855,
+            0.041579293223032096,
+            1.432261246162689e-08
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.1985608901496752,
+          "sample_std": 76.72398675772786,
+          "log_variance": 0.8345557049727962,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 21.703767,
+      "feature_time": 20.791064,
+      "image_shape": [
+        481,
+        321
+      ],
+      "mean_intensity": 151.24123548422614,
+      "std_intensity": 77.25805283979005,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_102061_18257.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.5714861813317593,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.03487671711970777,
+        "sample_std": 60.635888588854705,
+        "log_variance": 0.7099286805130647,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.07055555555555555,
+          0.4924444444444444,
+          0.3858888888888889,
+          0.05111111111111111
+        ],
+        "extra": [
+          0.084,
+          0.534,
+          0.318,
+          0.064
+        ],
+        "gb": [
+          6.608877205184132e-09,
+          0.9557225031048031,
+          0.04427747313754451,
+          1.7148775129797186e-08
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.7099286805130647,
+        "intensity_variance_correlation": 0.3792950335947206,
+        "extreme_pixel_ratio": 0.03487671711970777,
+        "edge_density": 0.2977377089526622,
+        "ensemble_probabilities": {
+          "rf": [
+            0.07055555555555555,
+            0.4924444444444444,
+            0.3858888888888889,
+            0.05111111111111111
+          ],
+          "extra": [
+            0.084,
+            0.534,
+            0.318,
+            0.064
+          ],
+          "gb": [
+            6.608877205184132e-09,
+            0.9557225031048031,
+            0.04427747313754451,
+            1.7148775129797186e-08
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.03487671711970777,
+          "sample_std": 60.635888588854705,
+          "log_variance": 0.7099286805130647,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 4.901905,
+      "feature_time": 4.316323,
+      "image_shape": [
+        481,
+        321
+      ],
+      "mean_intensity": 114.18965550741251,
+      "std_intensity": 60.71826356096748,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_147091_18261.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.5970867275099989,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.03104902170322731,
+        "sample_std": 69.7562054355023,
+        "log_variance": 1.1265635037019879,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0975,
+          0.5629444444444445,
+          0.2633333333333333,
+          0.07622222222222222
+        ],
+        "extra": [
+          0.12,
+          0.53,
+          0.268,
+          0.082
+        ],
+        "gb": [
+          2.5369459349630525e-06,
+          0.9642246878177617,
+          0.03577275572023547,
+          1.9516067800058468e-08
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 1.1265635037019879,
+        "intensity_variance_correlation": -0.06288855587132941,
+        "extreme_pixel_ratio": 0.03104902170322731,
+        "edge_density": 0.28916911159901815,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0975,
+            0.5629444444444445,
+            0.2633333333333333,
+            0.07622222222222222
+          ],
+          "extra": [
+            0.12,
+            0.53,
+            0.268,
+            0.082
+          ],
+          "gb": [
+            2.5369459349630525e-06,
+            0.9642246878177617,
+            0.03577275572023547,
+            1.9516067800058468e-08
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.03104902170322731,
+          "sample_std": 69.7562054355023,
+          "log_variance": 1.1265635037019879,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 4.229387,
+      "feature_time": 3.806444,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 108.08354868167952,
+      "std_intensity": 69.46965044416643,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_157055_18299.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.5714581236180573,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0355308579607645,
+        "sample_std": 64.52000354122744,
+        "log_variance": 0.7527452016638152,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.06916666666666667,
+          0.48633333333333334,
+          0.40755555555555556,
+          0.03694444444444444
+        ],
+        "extra": [
+          0.104,
+          0.534,
+          0.268,
+          0.094
+        ],
+        "gb": [
+          1.1772610019088733e-07,
+          0.9641658278055505,
+          0.035834045009722974,
+          9.458626262359188e-09
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.7527452016638152,
+        "intensity_variance_correlation": -0.060038582279730406,
+        "extreme_pixel_ratio": 0.0355308579607645,
+        "edge_density": 0.3186896457924495,
+        "ensemble_probabilities": {
+          "rf": [
+            0.06916666666666667,
+            0.48633333333333334,
+            0.40755555555555556,
+            0.03694444444444444
+          ],
+          "extra": [
+            0.104,
+            0.534,
+            0.268,
+            0.094
+          ],
+          "gb": [
+            1.1772610019088733e-07,
+            0.9641658278055505,
+            0.035834045009722974,
+            9.458626262359188e-09
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0355308579607645,
+          "sample_std": 64.52000354122744,
+          "log_variance": 0.7527452016638152,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 3.50299,
+      "feature_time": 3.157395,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 151.0677456752223,
+      "std_intensity": 64.32846125667058,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_160068_18283.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.6342855821246459,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.032791238398715034,
+        "sample_std": 54.66880988058913,
+        "log_variance": 0.6762053568891735,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.05,
+          0.5968888888888889,
+          0.32866666666666666,
+          0.024444444444444442
+        ],
+        "extra": [
+          0.046,
+          0.626,
+          0.266,
+          0.062
+        ],
+        "gb": [
+          1.3604969996909508e-06,
+          0.950297884054127,
+          0.04970060578990948,
+          1.496589638432193e-07
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.6762053568891735,
+        "intensity_variance_correlation": 0.5550376825483953,
+        "extreme_pixel_ratio": 0.032791238398715034,
+        "edge_density": 0.2879385496207926,
+        "ensemble_probabilities": {
+          "rf": [
+            0.05,
+            0.5968888888888889,
+            0.32866666666666666,
+            0.024444444444444442
+          ],
+          "extra": [
+            0.046,
+            0.626,
+            0.266,
+            0.062
+          ],
+          "gb": [
+            1.3604969996909508e-06,
+            0.950297884054127,
+            0.04970060578990948,
+            1.496589638432193e-07
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.032791238398715034,
+          "sample_std": 54.66880988058913,
+          "log_variance": 0.6762053568891735,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 3.503223,
+      "feature_time": 3.140198,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 91.1325185717709,
+      "std_intensity": 55.326890818306644,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_189080_18223.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.5708010545072577,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.0313469472347977,
+        "sample_std": 76.13420556648634,
+        "log_variance": 0.8675050397094404,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.08888888888888889,
+          0.4652222222222222,
+          0.3908888888888889,
+          0.055
+        ],
+        "extra": [
+          0.106,
+          0.56,
+          0.256,
+          0.078
+        ],
+        "gb": [
+          2.847561214666285e-06,
+          0.9598931069179077,
+          0.04010391371167205,
+          1.3180920568433146e-07
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.8675050397094404,
+        "intensity_variance_correlation": 0.14502054917904458,
+        "extreme_pixel_ratio": 0.0313469472347977,
+        "edge_density": 0.26794515579562306,
+        "ensemble_probabilities": {
+          "rf": [
+            0.08888888888888889,
+            0.4652222222222222,
+            0.3908888888888889,
+            0.055
+          ],
+          "extra": [
+            0.106,
+            0.56,
+            0.256,
+            0.078
+          ],
+          "gb": [
+            2.847561214666285e-06,
+            0.9598931069179077,
+            0.04010391371167205,
+            1.3180920568433146e-07
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.0313469472347977,
+          "sample_std": 76.13420556648634,
+          "log_variance": 0.8675050397094404,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 3.46462,
+      "feature_time": 3.142399,
+      "image_shape": [
+        481,
+        321
+      ],
+      "mean_intensity": 134.0620008937766,
+      "std_intensity": 76.47038031626943,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_208001_18303.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.6244585405910937,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.03189746180400386,
+        "sample_std": 56.40134764914753,
+        "log_variance": 0.6936653204213583,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.09055555555555554,
+          0.6485555555555556,
+          0.21033333333333334,
+          0.050555555555555555
+        ],
+        "extra": [
+          0.084,
+          0.64,
+          0.21,
+          0.066
+        ],
+        "gb": [
+          0.13931886187697545,
+          0.8218563845865853,
+          0.0388247193516535,
+          3.418478598175225e-08
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.6936653204213583,
+        "intensity_variance_correlation": 0.19126464133980522,
+        "extreme_pixel_ratio": 0.03189746180400386,
+        "edge_density": 0.3372776083056457,
+        "ensemble_probabilities": {
+          "rf": [
+            0.09055555555555554,
+            0.6485555555555556,
+            0.21033333333333334,
+            0.050555555555555555
+          ],
+          "extra": [
+            0.084,
+            0.64,
+            0.21,
+            0.066
+          ],
+          "gb": [
+            0.13931886187697545,
+            0.8218563845865853,
+            0.0388247193516535,
+            3.418478598175225e-08
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.03189746180400386,
+          "sample_std": 56.40134764914753,
+          "log_variance": 0.6936653204213583,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 3.365896,
+      "feature_time": 3.050671,
+      "image_shape": [
+        481,
+        321
+      ],
+      "mean_intensity": 90.12567923782878,
+      "std_intensity": 56.00629946345983,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_219090_18276.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.6338517879836406,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.03208528442173302,
+        "sample_std": 57.25331231326271,
+        "log_variance": 0.7483961205418914,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.08833333333333333,
+          0.5991111111111111,
+          0.2553333333333333,
+          0.057222222222222216
+        ],
+        "extra": [
+          0.068,
+          0.614,
+          0.248,
+          0.07
+        ],
+        "gb": [
+          2.5255525627637417e-06,
+          0.9598515963789948,
+          0.04014583814705269,
+          3.992138975601667e-08
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.7483961205418914,
+        "intensity_variance_correlation": 0.11888246469903008,
+        "extreme_pixel_ratio": 0.03208528442173302,
+        "edge_density": 0.3147907073140718,
+        "ensemble_probabilities": {
+          "rf": [
+            0.08833333333333333,
+            0.5991111111111111,
+            0.2553333333333333,
+            0.057222222222222216
+          ],
+          "extra": [
+            0.068,
+            0.614,
+            0.248,
+            0.07
+          ],
+          "gb": [
+            2.5255525627637417e-06,
+            0.9598515963789948,
+            0.04014583814705269,
+            3.992138975601667e-08
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.03208528442173302,
+          "sample_std": 57.25331231326271,
+          "log_variance": 0.7483961205418914,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 3.382119,
+      "feature_time": 3.045257,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 107.74197058309208,
+      "std_intensity": 57.71053558157412,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_223061_18225.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.5510900117425847,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.03351014565967837,
+        "sample_std": 67.13068545575861,
+        "log_variance": 1.0770973209179533,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.12694444444444444,
+          0.46766666666666673,
+          0.3218888888888889,
+          0.0835
+        ],
+        "extra": [
+          0.174,
+          0.488,
+          0.24,
+          0.098
+        ],
+        "gb": [
+          6.648752821362234e-09,
+          0.9640267136369932,
+          0.035973271327008075,
+          8.387245991313583e-09
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 1.0770973209179533,
+        "intensity_variance_correlation": -0.45557983606672725,
+        "extreme_pixel_ratio": 0.03351014565967837,
+        "edge_density": 0.3341299602981846,
+        "ensemble_probabilities": {
+          "rf": [
+            0.12694444444444444,
+            0.46766666666666673,
+            0.3218888888888889,
+            0.0835
+          ],
+          "extra": [
+            0.174,
+            0.488,
+            0.24,
+            0.098
+          ],
+          "gb": [
+            6.648752821362234e-09,
+            0.9640267136369932,
+            0.035973271327008075,
+            8.387245991313583e-09
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.03351014565967837,
+          "sample_std": 67.13068545575861,
+          "log_variance": 1.0770973209179533,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 3.092063,
+      "feature_time": 2.793708,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 126.79266325995297,
+      "std_intensity": 67.08432861122547,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_24077_18279.jpg",
+      "prediction": "speckle",
+      "confidence": 0.4814602574643735,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.06570553299525263,
+        "sample_std": 81.7225347622062,
+        "log_variance": 1.126122849757548,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.07999999999999999,
+          0.2588888888888889,
+          0.6394444444444445,
+          0.021666666666666667
+        ],
+        "extra": [
+          0.088,
+          0.386,
+          0.474,
+          0.052
+        ],
+        "gb": [
+          9.971781695474833e-08,
+          0.9381810487454986,
+          0.06181882763529603,
+          2.3901388583546942e-08
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 1.126122849757548,
+        "intensity_variance_correlation": 0.5201856516553087,
+        "extreme_pixel_ratio": 0.06570553299525263,
+        "edge_density": 0.28785435327491404,
+        "ensemble_probabilities": {
+          "rf": [
+            0.07999999999999999,
+            0.2588888888888889,
+            0.6394444444444445,
+            0.021666666666666667
+          ],
+          "extra": [
+            0.088,
+            0.386,
+            0.474,
+            0.052
+          ],
+          "gb": [
+            9.971781695474833e-08,
+            0.9381810487454986,
+            0.06181882763529603,
+            2.3901388583546942e-08
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.06570553299525263,
+          "sample_std": 81.7225347622062,
+          "log_variance": 1.126122849757548,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 3.400619,
+      "feature_time": 3.089611,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 124.09749289188541,
+      "std_intensity": 82.21446561496674,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_295087_18267.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.6885361017660232,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.03186507859405056,
+        "sample_std": 48.27507625224428,
+        "log_variance": 0.6471441122295535,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.07944444444444444,
+          0.6980000000000001,
+          0.17033333333333334,
+          0.05222222222222222
+        ],
+        "extra": [
+          0.074,
+          0.674,
+          0.186,
+          0.066
+        ],
+        "gb": [
+          2.0037896840627194e-06,
+          0.9681444070640808,
+          0.031852674550103766,
+          9.145961314476264e-07
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.6471441122295535,
+        "intensity_variance_correlation": -0.09560318044172653,
+        "extreme_pixel_ratio": 0.03186507859405056,
+        "edge_density": 0.3185795428786083,
+        "ensemble_probabilities": {
+          "rf": [
+            0.07944444444444444,
+            0.6980000000000001,
+            0.17033333333333334,
+            0.05222222222222222
+          ],
+          "extra": [
+            0.074,
+            0.674,
+            0.186,
+            0.066
+          ],
+          "gb": [
+            2.0037896840627194e-06,
+            0.9681444070640808,
+            0.031852674550103766,
+            9.145961314476264e-07
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.03186507859405056,
+          "sample_std": 48.27507625224428,
+          "log_variance": 0.6471441122295535,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 3.228585,
+      "feature_time": 2.891117,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 87.5417516725928,
+      "std_intensity": 47.04368105703278,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_300091_18317.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.6861650523838801,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.033924650747080655,
+        "sample_std": 50.58590469251292,
+        "log_variance": 0.6691995863098549,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.08833333333333333,
+          0.6663333333333333,
+          0.20922222222222225,
+          0.03611111111111111
+        ],
+        "extra": [
+          0.05,
+          0.71,
+          0.194,
+          0.046
+        ],
+        "gb": [
+          6.636974374112244e-09,
+          0.9597935428688419,
+          0.04020623508757661,
+          2.1540660703764902e-07
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.6691995863098549,
+        "intensity_variance_correlation": 0.34597551383857034,
+        "extreme_pixel_ratio": 0.033924650747080655,
+        "edge_density": 0.29936982273430873,
+        "ensemble_probabilities": {
+          "rf": [
+            0.08833333333333333,
+            0.6663333333333333,
+            0.20922222222222225,
+            0.03611111111111111
+          ],
+          "extra": [
+            0.05,
+            0.71,
+            0.194,
+            0.046
+          ],
+          "gb": [
+            6.636974374112244e-09,
+            0.9597935428688419,
+            0.04020623508757661,
+            2.1540660703764902e-07
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.033924650747080655,
+          "sample_std": 50.58590469251292,
+          "log_variance": 0.6691995863098549,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 4.116117,
+      "feature_time": 3.722966,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 91.25923407231818,
+      "std_intensity": 50.862491327004626,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_385039_18290.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.5325755814919012,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.03276533183075239,
+        "sample_std": 68.48152765790202,
+        "log_variance": 0.8724828205572476,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0811111111111111,
+          0.4699444444444444,
+          0.39866666666666667,
+          0.050277777777777775
+        ],
+        "extra": [
+          0.098,
+          0.44,
+          0.396,
+          0.066
+        ],
+        "gb": [
+          9.340941510281921e-09,
+          0.9443801037453705,
+          0.05561986780747223,
+          1.9106215900313697e-08
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.8724828205572476,
+        "intensity_variance_correlation": 0.34419258309395473,
+        "extreme_pixel_ratio": 0.03276533183075239,
+        "edge_density": 0.3214940317744056,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0811111111111111,
+            0.4699444444444444,
+            0.39866666666666667,
+            0.050277777777777775
+          ],
+          "extra": [
+            0.098,
+            0.44,
+            0.396,
+            0.066
+          ],
+          "gb": [
+            9.340941510281921e-09,
+            0.9443801037453705,
+            0.05561986780747223,
+            1.9106215900313697e-08
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.03276533183075239,
+          "sample_std": 68.48152765790202,
+          "log_variance": 0.8724828205572476,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 3.309687,
+      "feature_time": 2.996373,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 102.58352601343256,
+      "std_intensity": 68.65419484117119,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_42012_18249.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.6566106782928506,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.031482956716601576,
+        "sample_std": 64.13782065988835,
+        "log_variance": 0.8520152089132734,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.09555555555555555,
+          0.6535555555555556,
+          0.21033333333333334,
+          0.04055555555555555
+        ],
+        "extra": [
+          0.092,
+          0.624,
+          0.218,
+          0.066
+        ],
+        "gb": [
+          0.0015619245881744982,
+          0.9626649353936124,
+          0.03577312281109954,
+          1.720711366844774e-08
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.8520152089132734,
+        "intensity_variance_correlation": 0.15253873101354617,
+        "extreme_pixel_ratio": 0.031482956716601576,
+        "edge_density": 0.3178476823336636,
+        "ensemble_probabilities": {
+          "rf": [
+            0.09555555555555555,
+            0.6535555555555556,
+            0.21033333333333334,
+            0.04055555555555555
+          ],
+          "extra": [
+            0.092,
+            0.624,
+            0.218,
+            0.066
+          ],
+          "gb": [
+            0.0015619245881744982,
+            0.9626649353936124,
+            0.03577312281109954,
+            1.720711366844774e-08
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.031482956716601576,
+          "sample_std": 64.13782065988835,
+          "log_variance": 0.8520152089132734,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 3.180007,
+      "feature_time": 2.852529,
+      "image_shape": [
+        481,
+        321
+      ],
+      "mean_intensity": 93.71987875726194,
+      "std_intensity": 62.84285990059915,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_42049_18236.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.6168181116996457,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.03263579899093918,
+        "sample_std": 59.580099667926035,
+        "log_variance": 0.8043886361163542,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.08766666666666667,
+          0.5133888888888888,
+          0.3667222222222222,
+          0.03222222222222223
+        ],
+        "extra": [
+          0.052,
+          0.65,
+          0.214,
+          0.084
+        ],
+        "gb": [
+          6.686553607787567e-09,
+          0.9685280023541265,
+          0.031471855248111594,
+          1.357112083200883e-07
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.8043886361163542,
+        "intensity_variance_correlation": -0.490388065637075,
+        "extreme_pixel_ratio": 0.03263579899093918,
+        "edge_density": 0.2524983646478974,
+        "ensemble_probabilities": {
+          "rf": [
+            0.08766666666666667,
+            0.5133888888888888,
+            0.3667222222222222,
+            0.03222222222222223
+          ],
+          "extra": [
+            0.052,
+            0.65,
+            0.214,
+            0.084
+          ],
+          "gb": [
+            6.686553607787567e-09,
+            0.9685280023541265,
+            0.031471855248111594,
+            1.357112083200883e-07
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.03263579899093918,
+          "sample_std": 59.580099667926035,
+          "log_variance": 0.8043886361163542,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 2.673829,
+      "feature_time": 2.388123,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 164.75170497600405,
+      "std_intensity": 59.6030984902576,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_43074_18306.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.7126215725859998,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.03262284570695786,
+        "sample_std": 43.98356965958993,
+        "log_variance": 0.6167795065777949,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.08333333333333333,
+          0.718,
+          0.1592222222222222,
+          0.03944444444444444
+        ],
+        "extra": [
+          0.078,
+          0.742,
+          0.126,
+          0.054
+        ],
+        "gb": [
+          5.241533746225594e-06,
+          0.9548862903439873,
+          0.045106107441869485,
+          2.3606803971062633e-06
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.6167795065777949,
+        "intensity_variance_correlation": 0.017742027784923082,
+        "extreme_pixel_ratio": 0.03262284570695786,
+        "edge_density": 0.29322348948517174,
+        "ensemble_probabilities": {
+          "rf": [
+            0.08333333333333333,
+            0.718,
+            0.1592222222222222,
+            0.03944444444444444
+          ],
+          "extra": [
+            0.078,
+            0.742,
+            0.126,
+            0.054
+          ],
+          "gb": [
+            5.241533746225594e-06,
+            0.9548862903439873,
+            0.045106107441869485,
+            2.3606803971062633e-06
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.03262284570695786,
+          "sample_std": 43.98356965958993,
+          "log_variance": 0.6167795065777949,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 3.146381,
+      "feature_time": 2.83799,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 71.69891386713816,
+      "std_intensity": 42.229378248140655,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_55073_18308.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.5513531801301816,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.032856004818621644,
+        "sample_std": 56.64092664637471,
+        "log_variance": 0.857249235275449,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.057222222222222216,
+          0.5268888888888889,
+          0.3931111111111111,
+          0.022777777777777775
+        ],
+        "extra": [
+          0.058,
+          0.442,
+          0.426,
+          0.074
+        ],
+        "gb": [
+          9.099757366454541e-09,
+          0.9373682760762702,
+          0.06263167600841736,
+          3.8815555128758824e-08
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.857249235275449,
+        "intensity_variance_correlation": 0.5271706305235896,
+        "extreme_pixel_ratio": 0.032856004818621644,
+        "edge_density": 0.36760772274790965,
+        "ensemble_probabilities": {
+          "rf": [
+            0.057222222222222216,
+            0.5268888888888889,
+            0.3931111111111111,
+            0.022777777777777775
+          ],
+          "extra": [
+            0.058,
+            0.442,
+            0.426,
+            0.074
+          ],
+          "gb": [
+            9.099757366454541e-09,
+            0.9373682760762702,
+            0.06263167600841736,
+            3.8815555128758824e-08
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.032856004818621644,
+          "sample_std": 56.64092664637471,
+          "log_variance": 0.857249235275449,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 3.311318,
+      "feature_time": 2.971089,
+      "image_shape": [
+        481,
+        321
+      ],
+      "mean_intensity": 80.58998970213923,
+      "std_intensity": 58.427230666310024,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_62096_18242.jpg",
+      "prediction": "speckle",
+      "confidence": 0.46627028922142755,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.03685209292685928,
+        "sample_std": 92.0107800116921,
+        "log_variance": 1.0145172527138717,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.07111111111111111,
+          0.26216666666666666,
+          0.6350555555555557,
+          0.03166666666666667
+        ],
+        "extra": [
+          0.068,
+          0.428,
+          0.434,
+          0.07
+        ],
+        "gb": [
+          6.531457280868999e-09,
+          0.9447939501837082,
+          0.055203399107956304,
+          2.644176878502446e-06
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 1.0145172527138717,
+        "intensity_variance_correlation": 0.3500862561056919,
+        "extreme_pixel_ratio": 0.03685209292685928,
+        "edge_density": 0.2866496978646511,
+        "ensemble_probabilities": {
+          "rf": [
+            0.07111111111111111,
+            0.26216666666666666,
+            0.6350555555555557,
+            0.03166666666666667
+          ],
+          "extra": [
+            0.068,
+            0.428,
+            0.434,
+            0.07
+          ],
+          "gb": [
+            6.531457280868999e-09,
+            0.9447939501837082,
+            0.055203399107956304,
+            2.644176878502446e-06
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.03685209292685928,
+          "sample_std": 92.0107800116921,
+          "log_variance": 1.0145172527138717,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 3.269849,
+      "feature_time": 2.977701,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 139.30524413701983,
+      "std_intensity": 92.18529295120729,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_89072_18265.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.5996865841528136,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.03202699464381707,
+        "sample_std": 58.080741207047275,
+        "log_variance": 0.7125601897690856,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.0788888888888889,
+          0.5616111111111112,
+          0.3056111111111111,
+          0.05388888888888888
+        ],
+        "extra": [
+          0.106,
+          0.548,
+          0.272,
+          0.074
+        ],
+        "gb": [
+          8.02591111813573e-08,
+          0.9548907810556867,
+          0.04510911935325255,
+          1.9331949663293284e-08
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 0.7125601897690856,
+        "intensity_variance_correlation": 0.15788243708573185,
+        "extreme_pixel_ratio": 0.03202699464381707,
+        "edge_density": 0.32140335878653636,
+        "ensemble_probabilities": {
+          "rf": [
+            0.0788888888888889,
+            0.5616111111111112,
+            0.3056111111111111,
+            0.05388888888888888
+          ],
+          "extra": [
+            0.106,
+            0.548,
+            0.272,
+            0.074
+          ],
+          "gb": [
+            8.02591111813573e-08,
+            0.9548907810556867,
+            0.04510911935325255,
+            1.9331949663293284e-08
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.03202699464381707,
+          "sample_std": 58.080741207047275,
+          "log_variance": 0.7125601897690856,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 3.263123,
+      "feature_time": 2.964082,
+      "image_shape": [
+        481,
+        321
+      ],
+      "mean_intensity": 111.61245717320483,
+      "std_intensity": 58.77084745246445,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    },
+    {
+      "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_97033_18240.jpg",
+      "prediction": "salt_pepper",
+      "confidence": 0.46455040974829476,
+      "stage1_decision": null,
+      "stage1_confidence": 0.0,
+      "stage1_info": {
+        "exact_extreme_ratio": 0.057493150951094876,
+        "sample_std": 79.98605294024702,
+        "log_variance": 1.0697972424478832,
+        "decision": "full_analysis_required"
+      },
+      "ensemble_probabilities": {
+        "rf": [
+          0.07138888888888888,
+          0.3,
+          0.5816666666666667,
+          0.046944444444444434
+        ],
+        "extra": [
+          0.124,
+          0.41,
+          0.404,
+          0.062
+        ],
+        "gb": [
+          6.941403162907912e-09,
+          0.9462016389931673,
+          0.05379833364274741,
+          2.0422681964994773e-08
+        ],
+        "svm_linear": [
+          1.3743457641718758e-14,
+          2.945026617877615e-14,
+          0.9999999499999392,
+          5.00000174736765e-08
+        ]
+      },
+      "detailed_analysis": {
+        "log_variance": 1.0697972424478832,
+        "intensity_variance_correlation": 0.18084134403231455,
+        "extreme_pixel_ratio": 0.057493150951094876,
+        "edge_density": 0.32221293903536896,
+        "ensemble_probabilities": {
+          "rf": [
+            0.07138888888888888,
+            0.3,
+            0.5816666666666667,
+            0.046944444444444434
+          ],
+          "extra": [
+            0.124,
+            0.41,
+            0.404,
+            0.062
+          ],
+          "gb": [
+            6.941403162907912e-09,
+            0.9462016389931673,
+            0.05379833364274741,
+            2.0422681964994773e-08
+          ],
+          "svm_linear": [
+            1.3743457641718758e-14,
+            2.945026617877615e-14,
+            0.9999999499999392,
+            5.00000174736765e-08
+          ]
+        },
+        "stage1_info": {
+          "exact_extreme_ratio": 0.057493150951094876,
+          "sample_std": 79.98605294024702,
+          "log_variance": 1.0697972424478832,
+          "decision": "full_analysis_required"
+        }
+      },
+      "processing_time": 4.412601,
+      "feature_time": 4.061235,
+      "image_shape": [
+        321,
+        481
+      ],
+      "mean_intensity": 136.090854333845,
+      "std_intensity": 80.29184947869413,
+      "timestamp": "2025-06-13T02:02:17Z",
+      "system_version": "optimized_ultra_final_v2.0_fast",
+      "user": "vkhare2909"
+    }
+  ]
+}

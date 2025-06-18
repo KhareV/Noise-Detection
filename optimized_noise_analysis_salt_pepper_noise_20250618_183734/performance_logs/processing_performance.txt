@@ -1,0 +1,34 @@
+OPTIMIZED ULTRA-FINAL PERFORMANCE LOG (Fast Training Edition)
+=============================================================
+Date: 2025-06-13 02:06:01 UTC
+User: vkhare2909
+System: Optimized Ultra-Final v2.0 (Fast Training)
+
+CRITICAL OPTIMIZATIONS APPLIED:
+• Salt & pepper exact_extreme_ratio: 0.18 → 0.20 (+11% threshold)
+• Salt & pepper isolation_ratio: 0.30 → 0.40 (+33% threshold)
+• Added balance_ratio check: >0.25 (ensures both salt AND pepper)
+• Stage 1 confidence threshold: 0.92 → 0.88 (-4% for better accuracy)
+• Training dataset size: 60% reduction for faster training
+• Expected speckle accuracy improvement: 77.5% → 85-90%
+• Expected overall accuracy improvement: 85.8% → 90-93%
+
+PROCESSING SUMMARY:
+Total images processed: 20
+Average processing time: 4.423s
+Total processing time: 88.5s
+Stage 1 efficiency: 0.0%
+
+CONFIDENCE ANALYSIS:
+Mean confidence: 58.4%
+Very high confidence (>90%): 0
+High confidence (80-90%): 0
+Medium confidence (70-80%): 1
+Low confidence (<70%): 19
+
+OPTIMIZATION METRICS:
+Enhanced speckle detections: 0
+Balanced salt & pepper detections: 0
+Stage 1 threshold: 0.88 (optimized from 0.92)
+Feature count: 107 (enhanced discrimination)
+Training time reduction: 60% (fast mode)

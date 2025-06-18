@@ -1,0 +1,88 @@
+{
+  "image_name": "BSD_Noised_salt\\salt_pepper_noise\\salt_pepper_208001_18303.jpg",
+  "prediction": "salt_pepper",
+  "confidence": 0.6244585405910937,
+  "stage1_decision": null,
+  "stage1_confidence": 0.0,
+  "stage1_info": {
+    "exact_extreme_ratio": 0.03189746180400386,
+    "sample_std": 56.40134764914753,
+    "log_variance": 0.6936653204213583,
+    "decision": "full_analysis_required"
+  },
+  "ensemble_probabilities": {
+    "rf": [
+      0.09055555555555554,
+      0.6485555555555556,
+      0.21033333333333334,
+      0.050555555555555555
+    ],
+    "extra": [
+      0.084,
+      0.64,
+      0.21,
+      0.066
+    ],
+    "gb": [
+      0.13931886187697545,
+      0.8218563845865853,
+      0.0388247193516535,
+      3.418478598175225e-08
+    ],
+    "svm_linear": [
+      1.3743457641718758e-14,
+      2.945026617877615e-14,
+      0.9999999499999392,
+      5.00000174736765e-08
+    ]
+  },
+  "detailed_analysis": {
+    "log_variance": 0.6936653204213583,
+    "intensity_variance_correlation": 0.19126464133980522,
+    "extreme_pixel_ratio": 0.03189746180400386,
+    "edge_density": 0.3372776083056457,
+    "ensemble_probabilities": {
+      "rf": [
+        0.09055555555555554,
+        0.6485555555555556,
+        0.21033333333333334,
+        0.050555555555555555
+      ],
+      "extra": [
+        0.084,
+        0.64,
+        0.21,
+        0.066
+      ],
+      "gb": [
+        0.13931886187697545,
+        0.8218563845865853,
+        0.0388247193516535,
+        3.418478598175225e-08
+      ],
+      "svm_linear": [
+        1.3743457641718758e-14,
+        2.945026617877615e-14,
+        0.9999999499999392,
+        5.00000174736765e-08
+      ]
+    },
+    "stage1_info": {
+      "exact_extreme_ratio": 0.03189746180400386,
+      "sample_std": 56.40134764914753,
+      "log_variance": 0.6936653204213583,
+      "decision": "full_analysis_required"
+    }
+  },
+  "processing_time": 3.365896,
+  "feature_time": 3.050671,
+  "image_shape": [
+    481,
+    321
+  ],
+  "mean_intensity": 90.12567923782878,
+  "std_intensity": 56.00629946345983,
+  "timestamp": "2025-06-13T02:02:17Z",
+  "system_version": "optimized_ultra_final_v2.0_fast",
+  "user": "vkhare2909"
+}
